@@ -24,6 +24,7 @@ import './global.css';
 
 import { serializeError } from 'serialize-error';
 import { Toaster, toast } from 'sonner';
+import { ClientOnly } from './root';
 import { Navigation } from '@/components/Navigation/Navigation';
 import { Footer } from '@/components/Footer/Footer';
 import { WhatsAppButton } from '@/components/WhatsAppButton/WhatsAppButton';
