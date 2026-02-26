@@ -9,6 +9,13 @@ import {
   Briefcase,
 } from "lucide-react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM (3).jpeg";
+import s1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
+import s2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM (1).jpeg";
+import s3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM (1).jpeg";
+import s4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM (1).jpeg";
+import s5 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM (1).jpeg";
+import s6 from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM (1).jpeg";
 
 export default function ServicesPage() {
   const services = [
@@ -17,53 +24,47 @@ export default function ServicesPage() {
       title: "Restaurant",
       description:
         "Multi-cuisine restaurant serving authentic North Indian, South Indian, and Pan-Asian delicacies.",
-      image:
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+      image: s1,
     },
     {
       icon: PartyPopper,
       title: "Banquet Hall",
       description:
         "Elegant event spaces perfect for weddings, birthdays, corporate events, and celebrations.",
-      image:
-        "https://images.unsplash.com/photo-1519167758481-83f29da8c2b0?w=800&h=600&fit=crop",
+      image: s2,
     },
     {
       icon: Wifi,
       title: "Free WiFi",
       description:
         "High-speed complimentary WiFi throughout the property for all guests.",
-      image:
-        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
+      image: s3,
     },
     {
       icon: Car,
       title: "Parking",
       description: "Ample secure parking space available for all our guests.",
-      image:
-        "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop",
+      image: s4,
     },
     {
       icon: Dumbbell,
       title: "Fitness Center",
       description: "Modern gym equipped with state-of-the-art equipment.",
-      image:
-        "https://images.unsplash.com/photo-1534438327276-14e5300c3a33?w=800&h=600&fit=crop",
+      image: s5,
     },
     {
       icon: Briefcase,
       title: "Business Center",
       description:
         "Fully equipped business center with meeting rooms and conference facilities.",
-      image:
-        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+      image: s6,
     },
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <ParallaxBanner
-        src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1600&h=600&fit=crop"
+        src={bannerImg}
         alt="Services"
       >
         <div className="text-center text-white fadeIn">

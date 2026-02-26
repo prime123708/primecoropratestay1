@@ -1,24 +1,28 @@
 import { ExperienceBadge } from "./ExperienceBadge";
+import img1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM.jpeg";
+import img2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
+import img3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
+import img4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM.jpeg";
 
 export function ImageGrid() {
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=300&fit=crop",
+      src: img1,
       alt: "Room",
       caption: "Where Guests Feel Home",
     },
     {
-      src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=300&fit=crop",
+      src: img2,
       alt: "Dining",
       caption: "Dine. Relax. Rejoice",
     },
     {
-      src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=400&h=300&fit=crop",
+      src: img3,
       alt: "Hospitality",
       caption: "Hospitality. Heart. Home",
     },
     {
-      src: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=400&h=300&fit=crop",
+      src: img4,
       alt: "Elegant",
       caption: "Elegant Stays, Grand Experiences",
     },

@@ -4,12 +4,12 @@ import { useTestimonialSlider } from "@/hooks/useTestimonialSlider";
 const testimonials = [
   {
     name: "Kavita",
-    text: "I recently stayed at Atithi House for three days during my friend's wedding, and I had a wonderful experience. All the pre-wedding events were so beautifully organized and managed.",
+    text: "I recently stayed at Prime Corporate Stay for three days during my friend's wedding, and I had a wonderful experience. All the pre-wedding events were so beautifully organized and managed.",
     rating: 5,
   },
   {
     name: "Manish",
-    text: "Had an opportunity to stay at Atithi House while on a private visit. A centrally located and affordable. The staff are very friendly and indulging. The food was awesome.",
+    text: "Had an opportunity to stay at Prime Corporate Stay while on a private visit. A centrally located and affordable. The staff are very friendly and indulging. The food was awesome.",
     rating: 5,
   },
   {

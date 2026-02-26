@@ -16,11 +16,11 @@ export function AboutSection({ isVisible, addToRefs }) {
             <p className="text-[#EF4444] font-semibold mb-2 tracking-wider">
               DISCOVER COMFORT BEYOND STAY
             </p>
-            <h2 className="text-5xl font-serif mb-6">Atithi House</h2>
+            <h2 className="text-5xl font-serif mb-6">Prime Corporate Stay</h2>
             <p className="text-gray-700 mb-8 leading-relaxed">
-              Welcome to Atithi House, where comfort meets convenience in a
+              Welcome to Prime Corporate Stay, where comfort meets convenience in a
               warm, homely environment. Located in a serene neighborhood with
-              easy access to major city hubs, Atithi House is designed for
+              easy access to major city hubs, Prime Corporate Stay is designed for
               travelers who appreciate personalized hospitality, elegant spaces,
               and peaceful stays...
             </p>

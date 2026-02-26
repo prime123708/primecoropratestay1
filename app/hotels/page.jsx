@@ -1,5 +1,10 @@
 "use client";
 
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
+import exteriorImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM (2).jpeg";
+import restaurantImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
+import banquetImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
+
 export default function HotelsPage() {
   return (
     <div className="min-h-screen bg-white">
@@ -7,14 +12,14 @@ export default function HotelsPage() {
 
       <section className="relative h-[400px] mt-16 md:mt-20">
         <img
-          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&h=600&fit=crop"
+          src={bannerImg}
           alt="Hotels"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <div className="text-center text-white fadeIn">
             <h1 className="text-5xl md:text-6xl font-serif mb-4">
-              Atithi House
+              Prime Corporate Stay
             </h1>
             <p className="text-xl">Your Premium Stay in Greater Noida</p>
           </div>
@@ -28,10 +33,10 @@ export default function HotelsPage() {
               OUR PROPERTY
             </p>
             <h2 className="text-4xl font-serif mb-6">
-              Atithi House, Greater Noida
+              Prime Corporate Stay, Greater Noida
             </h2>
             <p className="text-gray-700 max-w-3xl mx-auto">
-              Located in the heart of Greater Noida, Atithi House offers modern
+              Located in the heart of Greater Noida, Prime Corporate Stay offers modern
               amenities, exceptional hospitality, and convenient access to major
               attractions and business hubs.
             </p>
@@ -43,7 +48,7 @@ export default function HotelsPage() {
               style={{ animationDelay: "100ms" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop"
+                src={exteriorImg}
                 alt="Exterior"
                 className="w-full h-48 object-cover"
               />
@@ -61,7 +66,7 @@ export default function HotelsPage() {
               style={{ animationDelay: "200ms" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop"
+                src={restaurantImg}
                 alt="Restaurant"
                 className="w-full h-48 object-cover"
               />
@@ -79,7 +84,7 @@ export default function HotelsPage() {
               style={{ animationDelay: "300ms" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1519167758481-83f29da8c2b0?w=600&h=400&fit=crop"
+                src={banquetImg}
                 alt="Banquet"
                 className="w-full h-48 object-cover"
               />

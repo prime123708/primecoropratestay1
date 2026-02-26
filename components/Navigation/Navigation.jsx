@@ -70,9 +70,9 @@ export function Navigation() {
           </div>
 
           <div className="hidden lg:block md:px-1">
-            <button className="bg-[#EF4444] text-white px-4 md:px-8 py-2 md:py-3 text-sm md:text-base font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
+            <a href="/contact"><button className="bg-[#EF4444] text-white px-4 md:px-8 py-2 md:py-3 text-sm md:text-base font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
               RESERVATION →
-            </button>
+            </button></a>
           </div>
 
           <div className="lg:hidden">

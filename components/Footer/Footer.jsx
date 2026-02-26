@@ -8,8 +8,8 @@ export function Footer() {
           <div>
             <div className="mb-6">
               <div className="text-3xl font-bold leading-tight mb-6">
-                <span className="block text-[#EF4444]">atithi</span>
-                <span className="block text-[#F7931E] -mt-2">house</span>
+                <span className="block text-[#EF4444]">prime</span>
+                <span className="block text-[#F7931E] -mt-2">corporate stay</span>
               </div>
             </div>
 
@@ -54,10 +54,9 @@ export function Footer() {
                 </svg>
               </a>
             </div>
-
-            <button className="bg-[#EF4444] text-white px-8 py-3 font-bold hover:bg-[#DC2626] transition-all">
+            <a href="/contact"><button className="bg-[#EF4444] text-white px-8 py-3 font-bold hover:bg-[#DC2626] transition-all">
               RESERVE NOW
-            </button>
+            </button></a>
           </div>
 
           <div>
@@ -143,10 +142,10 @@ export function Footer() {
                 <Mail className="w-5 h-5 text-[#EF4444] mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <a
-                    href="mailto:info@atithihouse.com"
+                    href="mailto:info@primecorporatestay.com"
                     className="text-gray-700 hover:text-[#EF4444] transition-colors"
                   >
-                    info@atithihouse.com
+                    info@primecorporatestay.com
                   </a>
                 </div>
               </div>
@@ -199,7 +198,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-300 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
-          <p>Atithi House © 2026. All Rights Reserved</p>
+          <p>Prime Corporate Stay © 2026. All Rights Reserved</p>
           <p className="mt-2 md:mt-0">
             Website developed by eZee -{" "}
             <span className="text-[#EF4444]">

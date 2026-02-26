@@ -1,4 +1,6 @@
 import { ServiceCard } from "./ServiceCard";
+import banquetImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM (2).jpeg";
+import restaurantImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM (2).jpeg";
 
 export function ServicesSection({ isVisible, addToRefs }) {
   const services = [
@@ -6,8 +8,7 @@ export function ServicesSection({ isVisible, addToRefs }) {
       title: "Our Banquet",
       description:
         "Our Banquet Hall is the perfect venue for hosting gatherings, celebrations, and life's special milestones. With elegant interiors, customizable setups, and dedicated event support, it's designed to make every occasion memorable.",
-      image:
-        "https://images.unsplash.com/photo-1519167758481-83f29da8c2b0?w=800&h=600&fit=crop",
+      image: banquetImg,
       buttonText: "VIEW MORE",
       imageFirst: true,
       section: "banquet",
@@ -16,8 +17,7 @@ export function ServicesSection({ isVisible, addToRefs }) {
       title: "Our Restaurant",
       description:
         "We serve emotions, traditions, and memories. With every dish, we aim to preserve culinary legacies while creating new experiences worth remembering. We bring the best of Tasya (North Indian), Adige (South Indian), and MOA (Pan Asian) cuisines to your special occasion.",
-      image:
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+      image: restaurantImg,
       buttonText: "VIEW MENU",
       imageFirst: false,
       section: "restaurant",

@@ -2,13 +2,14 @@
 
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM (2).jpeg";
 
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
 
       <ParallaxBanner
-        src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1600&h=600&fit=crop"
+        src={bannerImg}
         alt="Contact"
       >
         <div className="text-center text-white fadeIn">
@@ -42,10 +43,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
                     <a
-                      href="mailto:info@atithihouse.com"
+                    href="mailto:info@primecorporatestay.com"
                       className="text-gray-600 hover:text-[#EF4444] transition-colors"
                     >
-                      info@atithihouse.com
+                    info@primecorporatestay.com
                     </a>
                   </div>
                 </div>

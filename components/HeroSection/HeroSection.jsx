@@ -3,11 +3,11 @@ import { HeroSlider } from "./HeroSlider";
 import { HeroFeatures } from "./HeroFeatures";
 import { HeroInfoCards } from "./HeroInfoCards";
 
-const heroImages = [
-  "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&h=900&fit=crop",
-  "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1600&h=900&fit=crop",
-  "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1600&h=900&fit=crop",
-];
+import hero1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
+import hero2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
+import hero3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
+
+const heroImages = [hero1, hero2, hero3];
 
 export function HeroSection() {
   const currentSlide = useHeroSlider(heroImages);
@@ -15,7 +15,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-[600px] md:h-screen overflow-hidden mt-16 md:mt-20"
+      className="relative min-h-[600px] md:h-screen overflow-hidden"
     >
       <HeroSlider images={heroImages} currentSlide={currentSlide} />
 

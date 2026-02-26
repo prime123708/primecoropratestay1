@@ -3,6 +3,8 @@
 import { useState, useEffect, useRef } from "react";
 import { Star, Award, Users, Clock } from "lucide-react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
+import aboutImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM.jpeg";
 
 export default function AboutPage() {
   const [isVisible, setIsVisible] = useState({});
@@ -40,12 +42,12 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
 
       <ParallaxBanner
-        src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1600&h=600&fit=crop"
+        src={bannerImg}
         alt="About Us"
       >
         <div className="text-center text-white fadeIn">
           <h1 className="text-5xl md:text-6xl font-serif mb-4">
-            About Atithi House
+            About Prime Corporate Stay
           </h1>
           <p className="text-xl">Where Hospitality Meets Heart</p>
         </div>
@@ -66,14 +68,14 @@ export default function AboutPage() {
                 15 Years of Excellence
               </h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Welcome to Atithi House, where comfort meets convenience in a
+                Welcome to Prime Corporate Stay, where comfort meets convenience in a
                 warm, homely environment. For over 15 years, we've been
                 dedicated to providing our guests with exceptional hospitality
                 and memorable experiences.
               </p>
               <p className="text-gray-700 mb-4 leading-relaxed">
                 Located in a serene neighborhood with easy access to major city
-                hubs, Atithi House is designed for travelers who appreciate
+                hubs, Prime Corporate Stay is designed for travelers who appreciate
                 personalized hospitality, elegant spaces, and peaceful stays.
               </p>
               <p className="text-gray-700 leading-relaxed">
@@ -84,7 +86,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop"
+                src={aboutImg}
                 alt="Hotel"
                 className="rounded-lg shadow-2xl"
               />
@@ -155,7 +157,7 @@ export default function AboutPage() {
               Dedicated to Your Comfort
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed">
-              At Atithi House, our mission is to create a welcoming environment
+              At Prime Corporate Stay, our mission is to create a welcoming environment
               where every guest feels valued and cared for. We strive to exceed
               expectations through personalized service, attention to detail,
               and a commitment to excellence in everything we do. Whether you're

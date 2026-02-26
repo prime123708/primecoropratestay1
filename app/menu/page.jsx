@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM.jpeg";
 
 export default function MenuPage() {
   const [activeCategory, setActiveCategory] = useState("north-indian");
@@ -119,7 +120,7 @@ export default function MenuPage() {
 
       <section className="relative h-[400px] mt-16 md:mt-20">
         <img
-          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&h=600&fit=crop"
+          src={bannerImg}
           alt="Menu"
           className="w-full h-full object-cover"
         />

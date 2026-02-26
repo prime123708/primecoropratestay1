@@ -20,7 +20,7 @@ export function ExperienceBadge() {
                 />
               </svg>
             </div>
-            <div className="text-xs font-bold text-gray-800">ATITHI HOUSE</div>
+            {/* <div className="text-xs font-bold text-gray-800">PRIME CORPORATE STAY</div> */}
           </div>
         </div>
         <svg
@@ -35,7 +35,7 @@ export function ExperienceBadge() {
           </defs>
           <text fill="#8B4513" fontSize="11" fontWeight="bold">
             <textPath href="#circlePath">
-              • ATITHI HOUSE • 15 YEARS • EXPERIENCE •
+              • PRIME CORPORATE STAY • 15 YEARS • EXPERIENCE •
             </textPath>
           </text>
         </svg>

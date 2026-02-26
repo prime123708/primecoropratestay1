@@ -2,6 +2,11 @@
 
 import { useState, useEffect, useRef } from "react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
+import r1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM (2).jpeg";
+import r2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM (2).jpeg";
+import r3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM (1).jpeg";
+import r4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
 
 export default function RoomsPage() {
   const [isVisible, setIsVisible] = useState({});
@@ -10,8 +15,7 @@ export default function RoomsPage() {
   const rooms = [
     {
       title: "Luxury Rooms",
-      image:
-        "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop",
+      image: r1,
       description:
         "Experience ultimate comfort in our premium luxury rooms with modern amenities and elegant interiors.",
       features: ["King Size Bed", "Air Conditioning", "Free WiFi", "Smart TV"],
@@ -19,8 +23,7 @@ export default function RoomsPage() {
     },
     {
       title: "Superior Room",
-      image:
-        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&h=600&fit=crop",
+      image: r2,
       description:
         "Elegant spaces designed for your perfect stay with all modern conveniences.",
       features: [
@@ -33,8 +36,7 @@ export default function RoomsPage() {
     },
     {
       title: "Corporate Twin Room",
-      image:
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop",
+      image: r3,
       description:
         "Ideal for business travelers and colleagues with twin bed configuration.",
       features: [
@@ -47,8 +49,7 @@ export default function RoomsPage() {
     },
     {
       title: "Residences Room",
-      image:
-        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&h=600&fit=crop",
+      image: r4,
       description:
         "Your home away from home with extended stay comfort and spacious living.",
       features: [
@@ -94,7 +95,7 @@ export default function RoomsPage() {
       
 
       <ParallaxBanner
-        src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&h=600&fit=crop"
+        src={bannerImg}
         alt="Rooms"
       >
         <div className="text-center text-white fadeIn">

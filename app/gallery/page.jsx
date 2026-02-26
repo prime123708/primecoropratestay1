@@ -2,41 +2,50 @@
 
 import { useState } from "react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM (2).jpeg";
+import g1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
+import g2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM.jpeg";
+import g3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM (2).jpeg";
+import g4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
+import g5 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM (1).jpeg";
+import g6 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
+import g7 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM (2).jpeg";
+import g8 from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
 
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const galleryImages = [
     {
-      url: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop",
+      url: g1,
       title: "Hotel Exterior",
     },
     {
-      url: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop",
+      url: g2,
       title: "Luxury Room",
     },
     {
-      url: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+      url: g3,
       title: "Restaurant",
     },
     {
-      url: "https://images.unsplash.com/photo-1519167758481-83f29da8c2b0?w=800&h=600&fit=crop",
+      url: g4,
       title: "Banquet Hall",
     },
     {
-      url: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop",
+      url: g5,
       title: "Superior Room",
     },
     {
-      url: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&h=600&fit=crop",
+      url: g6,
       title: "Residences",
     },
     {
-      url: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
+      url: g7,
       title: "Lobby",
     },
     {
-      url: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&h=600&fit=crop",
+      url: g8,
       title: "Deluxe Room",
     },
   ];
@@ -46,7 +55,7 @@ export default function GalleryPage() {
       
 
       <ParallaxBanner
-        src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&h=600&fit=crop"
+        src={bannerImg}
         alt="Gallery"
       >
         <div className="text-center text-white fadeIn">

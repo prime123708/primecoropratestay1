@@ -5,7 +5,7 @@ export function HeroInfoCards() {
     {
       title: "Make Reservation",
       description:
-        "Experience an unforgettable dining journey at Atithi House.",
+        "Experience an unforgettable dining journey at Prime Corporate Stay.",
       bgColor: "bg-[#EF4444]",
       textColor: "text-white",
       delay: "0.2s",
