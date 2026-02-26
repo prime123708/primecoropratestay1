@@ -24,7 +24,6 @@ import './global.css';
 
 import { serializeError } from 'serialize-error';
 import { Toaster, toast } from 'sonner';
-import { ClientOnly } from './root';
 import { Navigation } from '@/components/Navigation/Navigation';
 import { Footer } from '@/components/Footer/Footer';
 import { WhatsAppButton } from '@/components/WhatsAppButton/WhatsAppButton';
@@ -53,6 +52,7 @@ function InternalErrorBoundary({ error: errorArg }: { error?: unknown }) {
   const THROTTLE_MS = 1000;
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
     const serialized = serializeError(error);
     const errorKey = JSON.stringify(serialized);
 
@@ -75,7 +75,9 @@ function InternalErrorBoundary({ error: errorArg }: { error?: unknown }) {
       }
       postCountRef.current += 1;
       lastPostTimeRef.current = Date.now();
-      window.parent.postMessage({ type: 'sandbox:error:detected', error: serialized }, '*');
+      if (window.parent) {
+        window.parent.postMessage({ type: 'sandbox:error:detected', error: serialized }, '*');
+      }
     };
 
     if (timeSinceLastPost < THROTTLE_MS) {
@@ -275,6 +277,7 @@ export function useHmrConnection(): boolean {
 const useHandshakeParent = () => {
   const isHmrConnected = useHmrConnection();
   useEffect(() => {
+    if (typeof window === 'undefined') return;
     const handleMessage = (event: MessageEvent) => {
       event;
     };
