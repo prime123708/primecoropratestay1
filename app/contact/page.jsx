@@ -30,10 +30,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold mb-1">Phone</h3>
                     <a
-                      href="tel:+917835000222"
+                      href="tel:+919528544057"
                       className="text-gray-600 hover:text-[#EF4444] transition-colors"
                     >
-                      +91 783 500 0222
+                      +91 9528544057
                     </a>
                   </div>
                 </div>
@@ -43,10 +43,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
                     <a
-                    href="mailto:info@primecorporatestay.com"
+                    href="mailto:primecorporatestay@gmail.com"
                       className="text-gray-600 hover:text-[#EF4444] transition-colors"
                     >
-                    info@primecorporatestay.com
+                    primecorporatestay@gmail.com
                     </a>
                   </div>
                 </div>
@@ -56,9 +56,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold mb-1">Address</h3>
                     <p className="text-gray-600">
-                      A-06, Block -A, Sector Phi-01, Greater Noida,
+                      CM 85, Sector 144, Noida,
                       <br />
-                      Gautambuddha Nagar, Uttar Pradesh, 201310
+                       Uttar Pradesh, 201310
                     </p>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ export default function ContactPage() {
 
               <div className="p-6 bg-gray-50 rounded-lg">
                 <p className="text-sm text-gray-600 mb-2">
-                  <strong>GST Number:</strong> 09AIPPA2245K1Z3
+                  {/* <strong>GST Number:</strong> 09AIPPA2245K1Z3 */}
                 </p>
               </div>
             </div>

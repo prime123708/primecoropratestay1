@@ -34,9 +34,11 @@ export function ServiceCard({
           <div>
             <h3 className="text-4xl font-serif mb-4">{title}</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
-            <button className="bg-[#EF4444] text-white px-8 py-3 font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
-              {buttonText}
-            </button>
+            <a href="/contact" className="block">
+              <button className="bg-[#EF4444] text-white px-8 py-3 font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
+                {buttonText}
+              </button>
+            </a>
           </div>
         </>
       ) : (
@@ -44,9 +46,11 @@ export function ServiceCard({
           <div className="order-2 lg:order-1">
             <h3 className="text-4xl font-serif mb-4">{title}</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
-            <button className="bg-[#EF4444] text-white px-8 py-3 font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
-              {buttonText}
-            </button>
+            <a href="/contact" className="block">
+              <button className="bg-[#EF4444] text-white px-8 py-3 font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
+                {buttonText}
+              </button>
+            </a>
           </div>
           <div className="relative group overflow-hidden rounded-lg order-1 lg:order-2">
             <img

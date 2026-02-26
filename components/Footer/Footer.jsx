@@ -106,18 +106,16 @@ export function Footer() {
               <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
                 Terms & Conditions
               </div>
-              <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
-                Refund Policy
-              </div>
+              
               <a
                 href="/contact"
                 className="text-gray-700 hover:text-[#EF4444] transition-colors"
               >
                 Contact Us
               </a>
-              <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
+              {/* <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
                 Pay Now
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -130,10 +128,10 @@ export function Footer() {
                 <Phone className="w-5 h-5 text-[#EF4444] mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <a
-                    href="tel:+917835000222"
+                    href="tel:+919528544057"
                     className="text-gray-700 hover:text-[#EF4444] transition-colors"
                   >
-                    +91 783 500 0222
+                    +91 9528544057
                   </a>
                 </div>
               </div>
@@ -142,10 +140,10 @@ export function Footer() {
                 <Mail className="w-5 h-5 text-[#EF4444] mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <a
-                    href="mailto:info@primecorporatestay.com"
+                    href="mailto:primecorporatestay@gmail.com"
                     className="text-gray-700 hover:text-[#EF4444] transition-colors"
                   >
-                    info@primecorporatestay.com
+                    primecorporatestay@gmail.com
                   </a>
                 </div>
               </div>
@@ -154,18 +152,14 @@ export function Footer() {
                 <MapPin className="w-5 h-5 text-[#EF4444] mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-gray-700">
-                    A-06, Block -A, Sector Phi-01, Greater Noida,
+                    CM 85, Sector 144, Noida,
                     <br />
-                    Gautambuddha Nagar, Uttar Pradesh, 201310
+                     Uttar Pradesh, 201310
                   </p>
                 </div>
               </div>
 
-              <div>
-                <p className="text-gray-700">
-                  <strong>GST:</strong> 09AIPPA2245K1Z3
-                </p>
-              </div>
+              
             </div>
 
             <div className="flex flex-col space-y-2 mt-6">
@@ -197,14 +191,9 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-300 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+        <div className="border-t border-gray-300 pt-6 flex flex-col md:flex-row justify-center items-center text-sm text-gray-600">
           <p>Prime Corporate Stay © 2026. All Rights Reserved</p>
-          <p className="mt-2 md:mt-0">
-            Website developed by eZee -{" "}
-            <span className="text-[#EF4444]">
-              Best Website Builder for Hotels
-            </span>
-          </p>
+         
         </div>
       </div>
     </footer>

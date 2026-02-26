@@ -5,20 +5,20 @@ import restaurantImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM (2).
 export function ServicesSection({ isVisible, addToRefs }) {
   const services = [
     {
-      title: "Our Banquet",
+      title: "Daily Housekeeping",
       description:
-        "Our Banquet Hall is the perfect venue for hosting gatherings, celebrations, and life's special milestones. With elegant interiors, customizable setups, and dedicated event support, it's designed to make every occasion memorable.",
+        "Daily Housekeeping ensures a clean, comfortable, and welcoming environment every single day. Our trained staff takes care of regular cleaning, tidying, and essential upkeep to maintain high standards of hygiene and freshness.",
       image: banquetImg,
-      buttonText: "VIEW MORE",
+      buttonText: "Book",
       imageFirst: true,
       section: "banquet",
     },
     {
-      title: "Our Restaurant",
+      title: "Security",
       description:
-        "We serve emotions, traditions, and memories. With every dish, we aim to preserve culinary legacies while creating new experiences worth remembering. We bring the best of Tasya (North Indian), Adige (South Indian), and MOA (Pan Asian) cuisines to your special occasion.",
+        "Security ensures a safe and protected environment around the clock. Our trained security personnel monitor the premises, manage access, and respond promptly to any concerns to maintain peace of mind. With constant vigilance and a proactive approach, security services help safeguard people, property, and assets—so you can feel confident and secure at all times.",
       image: restaurantImg,
-      buttonText: "VIEW MENU",
+      buttonText: "Book",
       imageFirst: false,
       section: "restaurant",
     },
