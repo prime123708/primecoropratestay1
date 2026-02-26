@@ -162,32 +162,7 @@ export function Footer() {
               
             </div>
 
-            <div className="flex flex-col space-y-2 mt-6">
-              <a
-                href="#"
-                className="w-10 h-10 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#EF4444] hover:text-white transition-all"
-              >
-                <span className="text-sm font-bold">G+</span>
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#EF4444] hover:text-white transition-all"
-              >
-                <svg
-                  className="w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                </svg>
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#EF4444] hover:text-white transition-all"
-              >
-                <Star className="w-5 h-5" fill="currentColor" />
-              </a>
-            </div>
+         
           </div>
         </div>
 
