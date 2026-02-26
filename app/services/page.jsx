@@ -76,7 +76,7 @@ export default function ServicesPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fadeIn">
-            <p className="text-[#EF4444] font-semibold mb-2 tracking-wider">
+            <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
               WHAT WE OFFER
             </p>
             <h2 className="text-4xl font-serif">Our Best Ministrations</h2>
@@ -98,7 +98,7 @@ export default function ServicesPage() {
                       className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                      <Icon className="w-16 h-16 text-white" />
+                      <Icon className="w-16 h-16 text-[#c5a075]" />
                     </div>
                   </div>
                   <div className="p-6">
@@ -106,6 +106,12 @@ export default function ServicesPage() {
                       {service.title}
                     </h3>
                     <p className="text-gray-600">{service.description}</p>
+                    <a
+                      href="/contact"
+                      className="inline-block mt-4 text-[#c5a075] font-semibold hover:text-[#b08e68] transition-colors"
+                    >
+                      Learn More →
+                    </a>
                   </div>
                 </div>
               );

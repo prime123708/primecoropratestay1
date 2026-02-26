@@ -42,17 +42,17 @@ export function Navigation() {
             </a>
 
             <div className="hidden lg:flex space-x-6 xl:space-x-8">
-              <a href="/" className="text-[#EF4444] font-semibold border-b-2 border-[#EF4444] pb-1">HOME</a>
-              <a href="/about" className="text-gray-700 hover:text-[#EF4444] transition-colors">ABOUT US</a>
-              <a href="/rooms" className="text-gray-700 hover:text-[#EF4444] transition-colors">ROOMS</a>
-              <a href="/services" className="text-gray-700 hover:text-[#EF4444] transition-colors">SERVICES</a>
-              <a href="/gallery" className="text-gray-700 hover:text-[#EF4444] transition-colors">GALLERY</a>
-              <a href="/contact" className="text-gray-700 hover:text-[#EF4444] transition-colors">CONTACT US</a>
+              <a href="/" className="text-[#c5a075] font-semibold border-b-2 border-[#c5a075] pb-1">HOME</a>
+              <a href="/about" className="text-gray-700 hover:text-[#c5a075] transition-colors">ABOUT US</a>
+              <a href="/rooms" className="text-gray-700 hover:text-[#c5a075] transition-colors">ROOMS</a>
+              <a href="/services" className="text-gray-700 hover:text-[#c5a075] transition-colors">SERVICES</a>
+              <a href="/gallery" className="text-gray-700 hover:text-[#c5a075] transition-colors">GALLERY</a>
+              <a href="/contact" className="text-gray-700 hover:text-[#c5a075] transition-colors">CONTACT US</a>
             </div>
 
             <div className="hidden lg:block md:px-1">
               <a href="/contact">
-                <button className="bg-[#EF4444] text-white px-4 md:px-8 py-2 md:py-3 text-sm md:text-base font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
+                <button className="bg-[#c5a075] text-white px-4 md:px-8 py-2 md:py-3 text-sm md:text-base font-semibold hover:bg-[#b08e68] transition-all transform hover:scale-105">
                   RESERVATION →
                 </button>
               </a>
@@ -78,14 +78,14 @@ export function Navigation() {
 
         <div id="mobile-menu" className="lg:hidden bg-white border-t border-gray-200 shadow-lg" style={{display: 'none'}}>
           <div className="px-4 py-3 flex flex-col space-y-3">
-            <a href="/" className="text-gray-700 hover:text-[#EF4444] transition-colors">HOME</a>
-            <a href="/about" className="text-gray-700 hover:text-[#EF4444] transition-colors">ABOUT US</a>
-            <a href="/rooms" className="text-gray-700 hover:text-[#EF4444] transition-colors">ROOMS</a>
-            <a href="/services" className="text-gray-700 hover:text-[#EF4444] transition-colors">SERVICES</a>
-            <a href="/gallery" className="text-gray-700 hover:text-[#EF4444] transition-colors">GALLERY</a>
-            <a href="/contact" className="text-gray-700 hover:text-[#EF4444] transition-colors">CONTACT US</a>
+            <a href="/" className="text-gray-700 hover:text-[#c5a075] transition-colors">HOME</a>
+            <a href="/about" className="text-gray-700 hover:text-[#c5a075] transition-colors">ABOUT US</a>
+            <a href="/rooms" className="text-gray-700 hover:text-[#c5a075] transition-colors">ROOMS</a>
+            <a href="/services" className="text-gray-700 hover:text-[#c5a075] transition-colors">SERVICES</a>
+            <a href="/gallery" className="text-gray-700 hover:text-[#c5a075] transition-colors">GALLERY</a>
+            <a href="/contact" className="text-gray-700 hover:text-[#c5a075] transition-colors">CONTACT US</a>
             <a href="/contact">
-              <button className="w-full bg-[#EF4444] text-white px-4 py-2 text-sm font-semibold rounded-md hover:bg-[#DC2626] transition-all">
+              <button className="w-full bg-[#c5a075] text-white px-4 py-2 text-sm font-semibold rounded-md hover:bg-[#b08e68] transition-all">
                 RESERVATION →
               </button>
             </a>

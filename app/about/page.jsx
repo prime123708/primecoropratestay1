@@ -61,7 +61,7 @@ export default function AboutPage() {
           className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transform transition-all duration-700 ${(isVisible?.story ?? true) ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
           >
             <div>
-              <p className="text-[#EF4444] font-semibold mb-2 tracking-wider">
+              <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
                 OUR STORY
               </p>
               <h2 className="text-4xl font-serif mb-6">
@@ -103,8 +103,8 @@ export default function AboutPage() {
               data-section="stat1"
             className={`text-center transform transition-all duration-700 ${(isVisible?.stat1 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
             >
-              <Award className="w-12 h-12 text-[#EF4444] mx-auto mb-4" />
-              <div className="text-4xl font-bold text-[#EF4444] mb-2">15+</div>
+              <Award className="w-12 h-12 text-[#c5a075] mx-auto mb-4" />
+              <div className="text-4xl font-bold text-[#c5a075] mb-2">15+</div>
               <div className="text-gray-600">Years Experience</div>
             </div>
 
@@ -113,8 +113,8 @@ export default function AboutPage() {
               data-section="stat2"
             className={`text-center transform transition-all duration-700 delay-100 ${(isVisible?.stat2 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
             >
-              <Users className="w-12 h-12 text-[#EF4444] mx-auto mb-4" />
-              <div className="text-4xl font-bold text-[#EF4444] mb-2">10K+</div>
+              <Users className="w-12 h-12 text-[#c5a075] mx-auto mb-4" />
+              <div className="text-4xl font-bold text-[#c5a075] mb-2">10K+</div>
               <div className="text-gray-600">Happy Guests</div>
             </div>
 
@@ -123,8 +123,8 @@ export default function AboutPage() {
               data-section="stat3"
             className={`text-center transform transition-all duration-700 delay-200 ${(isVisible?.stat3 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
             >
-              <Star className="w-12 h-12 text-[#EF4444] mx-auto mb-4" />
-              <div className="text-4xl font-bold text-[#EF4444] mb-2">
+              <Star className="w-12 h-12 text-[#c5a075] mx-auto mb-4" />
+              <div className="text-4xl font-bold text-[#c5a075] mb-2">
                 4.8/5
               </div>
               <div className="text-gray-600">Guest Rating</div>
@@ -135,8 +135,8 @@ export default function AboutPage() {
               data-section="stat4"
             className={`text-center transform transition-all duration-700 delay-300 ${(isVisible?.stat4 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
             >
-              <Clock className="w-12 h-12 text-[#EF4444] mx-auto mb-4" />
-              <div className="text-4xl font-bold text-[#EF4444] mb-2">24/7</div>
+              <Clock className="w-12 h-12 text-[#c5a075] mx-auto mb-4" />
+              <div className="text-4xl font-bold text-[#c5a075] mb-2">24/7</div>
               <div className="text-gray-600">Support Available</div>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function AboutPage() {
             data-section="mission"
           className={`text-center max-w-3xl mx-auto transform transition-all duration-700 ${(isVisible?.mission ?? true) ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
           >
-            <p className="text-[#EF4444] font-semibold mb-2 tracking-wider">
+            <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
               OUR MISSION
             </p>
             <h2 className="text-4xl font-serif mb-6">

@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <div className="mb-6">
               <div className="text-3xl font-bold leading-tight mb-6">
-                <span className="block text-[#EF4444]">prime</span>
+                <span className="block text-[#c5a075]">prime</span>
                 <span className="block text-[#F7931E] -mt-2">corporate stay</span>
               </div>
             </div>
@@ -16,7 +16,7 @@ export function Footer() {
             <div className="flex space-x-3 mb-6">
               <a
                 href="#"
-                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#EF4444] hover:text-white transition-all"
+                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all"
               >
                 <svg
                   className="w-5 h-5"
@@ -28,7 +28,7 @@ export function Footer() {
               </a>
               <a
                 href="#"
-                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#EF4444] hover:text-white transition-all"
+                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all"
               >
                 <svg
                   className="w-5 h-5"
@@ -42,7 +42,7 @@ export function Footer() {
               </a>
               <a
                 href="#"
-                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#EF4444] hover:text-white transition-all"
+                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all"
               >
                 <svg
                   className="w-5 h-5"
@@ -54,7 +54,7 @@ export function Footer() {
                 </svg>
               </a>
             </div>
-            <a href="/contact"><button className="bg-[#EF4444] text-white px-8 py-3 font-bold hover:bg-[#DC2626] transition-all">
+            <a href="/contact"><button className="bg-[#c5a075] text-white px-8 py-3 font-bold hover:bg-[#b08e68] transition-all">
               RESERVE NOW
             </button></a>
           </div>
@@ -66,54 +66,54 @@ export function Footer() {
             <div className="grid grid-cols-2 gap-x-8 gap-y-3">
               <a
                 href="/"
-                className="text-gray-700 hover:text-[#EF4444] transition-colors"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
               >
                 Home
               </a>
               <a
                 href="/about"
-                className="text-gray-700 hover:text-[#EF4444] transition-colors"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
               >
                 About
               </a>
               <a
                 href="/rooms"
-                className="text-gray-700 hover:text-[#EF4444] transition-colors"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
               >
                 Rooms
               </a>
               <a
                 href="/gallery"
-                className="text-gray-700 hover:text-[#EF4444] transition-colors"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
               >
                 Gallery
               </a>
-              <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
+              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
                 Amenities
               </div>
-              <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
+              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
                 Attractions
               </div>
-              <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
+              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
                 Events
               </div>
-              <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
+              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
                 FAQs
               </div>
-              <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
+              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
                 Privacy Policy
               </div>
-              <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
+              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
                 Terms & Conditions
               </div>
               
               <a
                 href="/contact"
-                className="text-gray-700 hover:text-[#EF4444] transition-colors"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
               >
                 Contact Us
               </a>
-              {/* <div className="text-gray-700 hover:text-[#EF4444] transition-colors cursor-pointer">
+              {/* <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
                 Pay Now
               </div> */}
             </div>
@@ -125,11 +125,11 @@ export function Footer() {
             </h3>
             <div className="space-y-4">
               <div className="flex items-start">
-                <Phone className="w-5 h-5 text-[#EF4444] mr-3 mt-1 flex-shrink-0" />
+                <Phone className="w-5 h-5 text-[#c5a075] mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <a
                     href="tel:+919528544057"
-                    className="text-gray-700 hover:text-[#EF4444] transition-colors"
+                    className="text-gray-700 hover:text-[#c5a075] transition-colors"
                   >
                     +91 9528544057
                   </a>
@@ -137,11 +137,11 @@ export function Footer() {
               </div>
 
               <div className="flex items-start">
-                <Mail className="w-5 h-5 text-[#EF4444] mr-3 mt-1 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-[#c5a075] mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <a
                     href="mailto:primecorporatestay@gmail.com"
-                    className="text-gray-700 hover:text-[#EF4444] transition-colors"
+                    className="text-gray-700 hover:text-[#c5a075] transition-colors"
                   >
                     primecorporatestay@gmail.com
                   </a>
@@ -149,7 +149,7 @@ export function Footer() {
               </div>
 
               <div className="flex items-start">
-                <MapPin className="w-5 h-5 text-[#EF4444] mr-3 mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-[#c5a075] mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-gray-700">
                     CM 85, Sector 144, Noida,

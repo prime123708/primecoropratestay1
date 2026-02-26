@@ -13,7 +13,7 @@ export function AboutSection({ isVisible, addToRefs }) {
             data-section="booking"
             className={`transform transition-all duration-700 ${(isVisible?.booking ?? true) ? "translate-x-0 opacity-100" : "translate-x-10 opacity-0"}`}
           >
-            <p className="text-[#EF4444] font-semibold mb-2 tracking-wider">
+            <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
               DISCOVER COMFORT BEYOND STAY
             </p>
             <h2 className="text-5xl font-serif mb-6">Prime Corporate Stay</h2>

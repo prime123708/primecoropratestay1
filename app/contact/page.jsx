@@ -26,12 +26,12 @@ export default function ContactPage() {
 
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">
-                  <Phone className="w-6 h-6 text-[#EF4444] mr-4 mt-1" />
+                  <Phone className="w-6 h-6 text-[#c5a075] mr-4 mt-1" />
                   <div>
                     <h3 className="font-bold mb-1">Phone</h3>
                     <a
                       href="tel:+919528544057"
-                      className="text-gray-600 hover:text-[#EF4444] transition-colors"
+                      className="text-gray-600 hover:text-[#c5a075] transition-colors"
                     >
                       +91 9528544057
                     </a>
@@ -39,12 +39,12 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <Mail className="w-6 h-6 text-[#EF4444] mr-4 mt-1" />
+                  <Mail className="w-6 h-6 text-[#c5a075] mr-4 mt-1" />
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
                     <a
                     href="mailto:primecorporatestay@gmail.com"
-                      className="text-gray-600 hover:text-[#EF4444] transition-colors"
+                      className="text-gray-600 hover:text-[#c5a075] transition-colors"
                     >
                     primecorporatestay@gmail.com
                     </a>
@@ -52,7 +52,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <MapPin className="w-6 h-6 text-[#EF4444] mr-4 mt-1" />
+                  <MapPin className="w-6 h-6 text-[#c5a075] mr-4 mt-1" />
                   <div>
                     <h3 className="font-bold mb-1">Address</h3>
                     <p className="text-gray-600">
@@ -64,7 +64,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <Clock className="w-6 h-6 text-[#EF4444] mr-4 mt-1" />
+                  <Clock className="w-6 h-6 text-[#c5a075] mr-4 mt-1" />
                   <div>
                     <h3 className="font-bold mb-1">Hours</h3>
                     <p className="text-gray-600">24/7 Support Available</p>
@@ -89,7 +89,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     type="text"
-                    className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#EF4444]"
+                    className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#c5a075]"
                     placeholder="Your Name"
                   />
                 </div>
@@ -100,7 +100,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     type="email"
-                    className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#EF4444]"
+                    className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#c5a075]"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     type="tel"
-                    className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#EF4444]"
+                    className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#c5a075]"
                     placeholder="+91 XXX XXX XXXX"
                   />
                 </div>
@@ -122,12 +122,12 @@ export default function ContactPage() {
                   </label>
                   <textarea
                     rows={5}
-                    className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#EF4444]"
+                    className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#c5a075]"
                     placeholder="Your message..."
                   />
                 </div>
 
-                <button className="w-full bg-[#EF4444] text-white py-4 font-bold rounded hover:bg-[#DC2626] transition-all transform hover:scale-105">
+                <button className="w-full bg-[#c5a075] text-white py-4 font-bold rounded hover:bg-[#b08e68] transition-all transform hover:scale-105">
                   SEND MESSAGE
                 </button>
               </form>

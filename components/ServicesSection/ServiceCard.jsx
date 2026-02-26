@@ -35,7 +35,7 @@ export function ServiceCard({
             <h3 className="text-4xl font-serif mb-4">{title}</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
             <a href="/contact" className="block">
-              <button className="bg-[#EF4444] text-white px-8 py-3 font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
+              <button className="bg-[#c5a075] text-white px-8 py-3 font-semibold hover:bg-[#b08e68] transition-all transform hover:scale-105">
                 {buttonText}
               </button>
             </a>
@@ -47,7 +47,7 @@ export function ServiceCard({
             <h3 className="text-4xl font-serif mb-4">{title}</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
             <a href="/contact" className="block">
-              <button className="bg-[#EF4444] text-white px-8 py-3 font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
+              <button className="bg-[#c5a075] text-white px-8 py-3 font-semibold hover:bg-[#b08e68] transition-all transform hover:scale-105">
                 {buttonText}
               </button>
             </a>

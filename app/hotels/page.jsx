@@ -29,7 +29,7 @@ export default function HotelsPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 fadeIn">
-            <p className="text-[#EF4444] font-semibold mb-2 tracking-wider">
+            <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
               OUR PROPERTY
             </p>
             <h2 className="text-4xl font-serif mb-6">
@@ -101,7 +101,7 @@ export default function HotelsPage() {
           <div className="mt-16 text-center">
             <a
               href="/contact"
-              className="inline-block bg-[#EF4444] text-white px-12 py-4 text-lg font-bold rounded hover:bg-[#DC2626] transition-all transform hover:scale-105"
+              className="inline-block bg-[#c5a075] text-white px-12 py-4 text-lg font-bold rounded hover:bg-[#b08e68] transition-all transform hover:scale-105"
             >
               CONTACT US FOR BOOKINGS
             </a>

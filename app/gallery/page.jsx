@@ -102,7 +102,7 @@ export default function GalleryPage() {
               className="max-w-full max-h-screen object-contain"
             />
             <button
-              className="absolute top-4 right-4 text-white text-4xl hover:text-[#EF4444] transition-colors"
+              className="absolute top-4 right-4 text-white text-4xl hover:text-[#c5a075] transition-colors"
               onClick={() => setSelectedImage(null)}
             >
               ×

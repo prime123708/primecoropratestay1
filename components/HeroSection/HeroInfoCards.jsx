@@ -6,7 +6,7 @@ export function HeroInfoCards() {
       title: "Make Reservation",
       description:
         "Experience an unforgettable dining journey at Prime Corporate Stay.",
-      bgColor: "bg-[#EF4444]",
+      bgColor: "bg-[#c5a075]",
       textColor: "text-white",
       delay: "0.2s",
     },

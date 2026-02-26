@@ -127,7 +127,7 @@ export default function RoomsPage() {
                     <h3 className="text-2xl font-bold text-gray-900">
                       {room.title}
                     </h3>
-                    <span className="text-2xl font-bold text-[#EF4444]">
+                    <span className="text-2xl font-bold text-[#c5a075]">
                       {room.price}
                       <span className="text-sm text-gray-500">/night</span>
                     </span>
@@ -140,15 +140,15 @@ export default function RoomsPage() {
                         key={idx}
                         className="flex items-center text-sm text-gray-700"
                       >
-                        <div className="w-2 h-2 bg-[#EF4444] rounded-full mr-2"></div>
+                        <div className="w-2 h-2 bg-[#c5a075] rounded-full mr-2"></div>
                         {feature}
                       </div>
                     ))}
                   </div>
 
-                  <button className="w-full bg-[#EF4444] text-white py-3 rounded-lg font-semibold hover:bg-[#DC2626] transition-all transform hover:scale-105">
+                  <a href="/contact"><button className="w-full bg-[#c5a075] text-white py-3 rounded-lg font-semibold hover:bg-[#b08e68] transition-all transform hover:scale-105">
                     BOOK NOW
-                  </button>
+                  </button></a>
                 </div>
               </div>
             ))}

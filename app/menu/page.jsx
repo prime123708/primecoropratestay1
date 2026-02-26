@@ -141,7 +141,7 @@ export default function MenuPage() {
                 onClick={() => setActiveCategory(category)}
                 className={`px-6 py-3 rounded-full font-semibold transition-all transform hover:scale-105 ${
                   activeCategory === category
-                    ? "bg-[#EF4444] text-white"
+                    ? "bg-[#c5a075] text-white"
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                 }`}
               >
@@ -165,7 +165,7 @@ export default function MenuPage() {
                     <h3 className="text-xl font-bold text-gray-900">
                       {item.name}
                     </h3>
-                    <span className="text-xl font-bold text-[#EF4444]">
+                    <span className="text-xl font-bold text-[#c5a075]">
                       {item.price}
                     </span>
                   </div>
