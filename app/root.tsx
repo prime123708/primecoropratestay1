@@ -28,6 +28,7 @@ import { ClientOnly } from './root';
 import { Navigation } from '@/components/Navigation/Navigation';
 import { Footer } from '@/components/Footer/Footer';
 import { WhatsAppButton } from '@/components/WhatsAppButton/WhatsAppButton';
+import { CallingButton } from '@/components/CallingButton/CallingButton';
 import { PageAnimations } from '@/components/PageAnimations/PageAnimations';
 
 export const links = () => [];
@@ -300,6 +301,7 @@ export function Layout({ children }: { children: ReactNode }) {
         <div className="pt-16 md:pt-20 min-h-screen bg-white">{children}</div>
         <Footer />
         <WhatsAppButton />
+        <CallingButton />
         <PageAnimations />
         <Toaster position={isMobile ? 'top-center' : 'bottom-right'} />
         <ScrollRestoration />

@@ -19,11 +19,7 @@ export function HeroSection() {
     >
       <HeroSlider images={heroImages} currentSlide={currentSlide} />
 
-      <div className="absolute top-8 md:top-20 left-4 md:left-12 z-10">
-        <h1 className="text-3xl md:text-6xl font-serif text-white mb-6 md:mb-12 slideInLeft">
-          Our Restaurant
-        </h1>
-      </div>
+     
 
       <HeroFeatures />
       <HeroInfoCards />

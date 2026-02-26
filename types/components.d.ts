@@ -13,6 +13,11 @@ declare module '@/components/WhatsAppButton/WhatsAppButton' {
   export const WhatsAppButton: FC<any>;
 }
 
+declare module '@/components/CallingButton/CallingButton' {
+  import type { FC } from 'react';
+  export const CallingButton: FC<any>;
+}
+
 declare module '@/components/PageAnimations/PageAnimations' {
   import type { FC } from 'react';
   export const PageAnimations: FC<any>;
