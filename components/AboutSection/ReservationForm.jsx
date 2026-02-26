@@ -31,9 +31,9 @@ export function ReservationForm() {
         </div>
       </div>
 
-      <button className="w-full bg-[#EF4444] text-white py-4 font-bold hover:bg-[#DC2626] transition-all transform hover:scale-105">
+      <a href="/contact"><button className="w-full bg-[#EF4444] text-white py-4 font-bold hover:bg-[#DC2626] transition-all transform hover:scale-105">
         RESERVE NOW
-      </button>
+      </button></a>
     </div>
   );
 }
