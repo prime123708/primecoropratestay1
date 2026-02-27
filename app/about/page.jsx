@@ -45,7 +45,7 @@ export default function AboutPage() {
         src={bannerImg}
         alt="About Us"
       >
-        <div className="text-center text-white fadeIn">
+        <div className="text-center text-white fadeInUp">
           <h1 className="text-5xl md:text-6xl font-serif mb-4">
             About Prime Corporate Stay
           </h1>
@@ -68,20 +68,22 @@ export default function AboutPage() {
                 15 Years of Excellence
               </h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Welcome to Prime Corporate Stay, where comfort meets convenience in a
-                warm, homely environment. For over 15 years, we've been
-                dedicated to providing our guests with exceptional hospitality
-                and memorable experiences.
+                Get your trip off to a great start with a stay at this property,
+                which offers free Wi-Fi in all rooms. Conveniently situated in
+                the Noida part of Noida, this property puts you close to
+                attractions and interesting dining options.
               </p>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Located in a serene neighborhood with easy access to major city
-                hubs, Prime Corporate Stay is designed for travelers who appreciate
-                personalized hospitality, elegant spaces, and peaceful stays.
+                This 5-star property features restaurant to make your stay more
+                indulgent and memorable. Welcome to Prime Corporate Stay, where
+                comfort meets convenience in a warm, homely environment.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Our commitment to excellence and attention to detail has made us
-                a preferred choice for both business and leisure travelers
-                seeking a home away from home.
+                For over 15 years, we've been dedicated to providing our guests
+                with exceptional hospitality and memorable experiences. Located
+                in a serene neighborhood with easy access to major city hubs,
+                Prime Corporate Stay is designed for travelers who appreciate
+                personalized hospitality, elegant spaces, and peaceful stays.
               </p>
             </div>
             <div className="relative">

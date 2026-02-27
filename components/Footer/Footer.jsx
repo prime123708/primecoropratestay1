@@ -88,24 +88,42 @@ export function Footer() {
               >
                 Gallery
               </a>
-              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
+              <a
+                href="/services"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
+              >
                 Amenities
-              </div>
-              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
+              </a>
+              <a
+                href="/attractions"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
+              >
                 Attractions
-              </div>
-              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
+              </a>
+              <a
+                href="/events"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
+              >
                 Events
-              </div>
-              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
+              </a>
+              <a
+                href="/faq"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
+              >
                 FAQs
-              </div>
-              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
+              </a>
+              <a
+                href="/privacy-policy"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
+              >
                 Privacy Policy
-              </div>
-              <div className="text-gray-700 hover:text-[#c5a075] transition-colors cursor-pointer">
+              </a>
+              <a
+                href="/terms-conditions"
+                className="text-gray-700 hover:text-[#c5a075] transition-colors"
+              >
                 Terms & Conditions
-              </div>
+              </a>
               
               <a
                 href="/contact"
