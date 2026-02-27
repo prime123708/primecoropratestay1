@@ -37,7 +37,6 @@ export function ParallaxBanner({
           style={{
             transform: `translate3d(0, ${offset}px, 0) scale(1.08)`,
             willChange: "transform",
-            pointerEvents: "none",
           }}
         />
       </div>

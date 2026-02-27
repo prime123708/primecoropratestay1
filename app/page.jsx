@@ -1,6 +1,3 @@
-
-"use client";
-
 import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { AboutSection } from "@/components/AboutSection/AboutSection";
