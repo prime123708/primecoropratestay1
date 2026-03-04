@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
   input, textarea, select, button {
     @apply outline-none focus:outline-none;
   }
