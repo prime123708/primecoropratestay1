@@ -32,13 +32,14 @@ export function HeroSection() {
       </div>
       <style jsx>{`
         .three-d-text {
-          color: #2c2c2c;
+          color: #2d2d2d;
           text-shadow: 
-            1px 1px 0px #1a1a1a,
-            2px 2px 0px #1a1a1a,
-            3px 3px 1px #1a1a1a,
-            3px 4px 3px rgba(0,0,0,0.25);
-          -webkit-text-stroke: 0.8px #1a1a1a;
+            0px 1px 0px #111,
+            0px 2px 0px #111,
+            0px 3px 0px #111,
+            0px 4px 2px rgba(0,0,0,0.3),
+            0px -1px 0px rgba(255,255,255,0.08);
+          -webkit-text-stroke: 1px #1a1a1a;
           paint-order: stroke fill;
         }
         .hero-slider {
