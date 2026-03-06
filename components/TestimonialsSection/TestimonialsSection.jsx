@@ -24,7 +24,7 @@ export function TestimonialsSection() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <p className="text-white/80 font-semibold mb-2">TESTIMONIALS</p>
-          <h2 className="text-4xl font-serif">Happy Customer Says</h2>
+          <h2 className="text-4xl text-[#222325] font-serif">Happy Customer Says</h2>
         </div>
 
         <div className="relative min-h-[200px]">
@@ -37,7 +37,7 @@ export function TestimonialsSection() {
                   ))}
                 </div>
                 <p className="text-xl italic mb-6">"{testimonial.text}"</p>
-                <h4 className="text-2xl font-bold">{testimonial.name}</h4>
+                <h4 className="text-2xl text-[#222325] font-bold">{testimonial.name}</h4>
               </div>
             ))}
           </div>

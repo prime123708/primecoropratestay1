@@ -33,7 +33,7 @@ import { PageAnimations } from '@/components/PageAnimations/PageAnimations';
 export const links = () => [];
 
 if (import.meta.hot) {
-  import.meta.hot.on('update-font-links', () => {});
+  import.meta.hot.on('update-font-links', () => { });
 }
 
 function InternalErrorBoundary({ error: errorArg }: { error?: unknown }) {
@@ -153,9 +153,8 @@ function InternalErrorBoundary({ error: errorArg }: { error?: unknown }) {
     <>
       {!isInIframe() && (
         <div
-          className={`fixed bottom-4 left-1/2 transform -translate-x-1/2 max-w-md z-50 transition-all duration-500 ease-out ${
-            isOpen ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
-          }`}
+          className={`fixed bottom-4 left-1/2 transform -translate-x-1/2 max-w-md z-50 transition-all duration-500 ease-out ${isOpen ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
+            }`}
           style={{ width: '75vw' }}
         >
           <div
@@ -163,9 +162,9 @@ function InternalErrorBoundary({ error: errorArg }: { error?: unknown }) {
             style={
               scaleFactor !== 1
                 ? ({
-                    transform: `scale(${scaleFactor})`,
-                    transformOrigin: 'bottom center',
-                  } as CSSProperties)
+                  transform: `scale(${scaleFactor})`,
+                  transformOrigin: 'bottom center',
+                } as CSSProperties)
                 : undefined
             }
           >
@@ -304,7 +303,7 @@ export function Layout({ children }: { children: ReactNode }) {
       </head>
       <body>
         <Navigation />
-        <div className="pt-16 md:pt-20 min-h-screen bg-white">{children}</div>
+        <div className="pt-20 md:pt-28 min-h-screen bg-white">{children}</div>
         <Footer />
         <WhatsAppButton />
         <CallingButton />
