@@ -35,9 +35,9 @@ export function Navigation() {
             <a href="/" className="flex items-center">
               <img src={logo} alt="Prime Corporate Stay logo" className="h-8 w-auto md:h-14 md:w-auto object-contain" />
               <div className="text-xl md:text-2xl font-serif font-bold leading-tight">
-                <span className="block bg-gradient-to-r from-[#222325] to-[#222325] me-2 bg-clip-text text-transparent">
+                {/* <span className="block bg-gradient-to-r from-[#222325] to-[#222325] me-2 bg-clip-text text-transparent">
                   Prime Corporate Stay
-                </span>
+                </span> */}
               </div>
             </a>
 
