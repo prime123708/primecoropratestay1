@@ -1,6 +1,7 @@
 import { ServiceCard } from "./ServiceCard";
 import banquetImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM (2).jpeg";
 import restaurantImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM (2).jpeg";
+import supportImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 
 export function ServicesSection({ isVisible, addToRefs }) {
   const services = [
@@ -21,6 +22,15 @@ export function ServicesSection({ isVisible, addToRefs }) {
       buttonText: "Book",
       imageFirst: false,
       section: "restaurant",
+    },
+    {
+      title: "24/7 Support",
+      description:
+        "Our dedicated support team is available around the clock to assist you with any inquiries or needs during your stay. Whether it's a special request or general assistance, we're here to ensure your experience is seamless and comfortable at any hour.",
+      image: supportImg,
+      buttonText: "Contact Us",
+      imageFirst: true,
+      section: "support",
     },
   ];
 
