@@ -31,10 +31,10 @@ export function Navigation() {
       
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16 md:h-20">
-            <a href="/" className="flex items-center">
-              <img src={logo} alt="Prime Corporate Stay logo" className="h-8 w-auto md:h-14 md:w-auto object-contain" />
-              <div className="text-xl md:text-2xl font-serif font-bold leading-tight">
+          <div className="flex justify-between items-center h-20 md:h-28">
+            <a href="/" className="flex items-center ">
+              <img src={logo} alt="Prime Corporate Stay logo" className="h-12 w-auto md:h-20 md:w-auto object-contain" />
+              <div className="text-xl md:text-3xl font-serif font-bold leading-tight">
                 {/* <span className="block bg-gradient-to-r from-[#222325] to-[#222325] me-2 bg-clip-text text-transparent">
                   Prime Corporate Stay
                 </span> */}
