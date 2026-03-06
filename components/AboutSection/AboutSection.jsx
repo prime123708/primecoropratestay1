@@ -16,7 +16,7 @@ export function AboutSection({ isVisible, addToRefs }) {
             <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
               DISCOVER COMFORT BEYOND STAY
             </p>
-            <h2 className="text-5xl font-serif mb-6">Prime Corporate Stay</h2>
+            <h2 className="text-4xl font-serif mb-6">Prime Corporate Stay</h2>
             <p className="text-gray-700 mb-8 leading-relaxed">
               Welcome to Prime Corporate Stay, where comfort meets convenience in a
               warm, homely environment. Located in a serene neighborhood with
