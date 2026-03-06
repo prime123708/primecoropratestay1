@@ -32,7 +32,7 @@ export function ServiceCard({
             />
           </div>
           <div>
-            <h3 className="text-4xl font-serif mb-4">{title}</h3>
+            <h3 className="text-3xl font-serif mb-4">{title}</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
             <a href="/contact" className="block">
               <button className="bg-[#c5a075] text-white px-8 py-3 font-semibold hover:bg-[#b08e68] transition-all transform hover:scale-105">

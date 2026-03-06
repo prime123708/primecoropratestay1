@@ -31,7 +31,7 @@ export function ServicesSection({ isVisible, addToRefs }) {
           <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
             SERVICES
           </p>
-          <h2 className="text-5xl font-serif">Our Best Ministrations</h2>
+          <h2 className="text-4xl font-serif">Our Best Ministrations</h2>
         </div>
 
         {services.map((service, index) => (
