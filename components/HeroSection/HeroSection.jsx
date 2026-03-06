@@ -35,12 +35,21 @@ export function HeroSection() {
           color: #2d2d2d;
           text-shadow: 
             0px 1px 0px #111,
-            0px 2px 0px #111,
-            0px 3px 0px #111,
-            0px 4px 2px rgba(0,0,0,0.3),
-            0px -1px 0px rgba(255,255,255,0.08);
-          -webkit-text-stroke: 1px #1a1a1a;
+            0px 2px 1px rgba(0,0,0,0.25),
+            0px -1px 0px rgba(255,255,255,0.06);
+          -webkit-text-stroke: 0.5px #1a1a1a;
           paint-order: stroke fill;
+        }
+        @media (min-width: 768px) {
+          .three-d-text {
+            text-shadow: 
+              0px 1px 0px #111,
+              0px 2px 0px #111,
+              0px 3px 0px #111,
+              0px 4px 2px rgba(0,0,0,0.3),
+              0px -1px 0px rgba(255,255,255,0.08);
+            -webkit-text-stroke: 1px #1a1a1a;
+          }
         }
         .hero-slider {
           position: absolute;
