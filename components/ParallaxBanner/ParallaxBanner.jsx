@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 export function ParallaxBanner({
   src,
   alt,
-  heightClass = "h-[400px] mt-16 md:mt-20",
+  heightClass = "h-[400px]",
   strength = 0.25,
   children,
 }) {

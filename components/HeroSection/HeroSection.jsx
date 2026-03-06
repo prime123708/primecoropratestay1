@@ -4,29 +4,28 @@ import hero3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
 
 export function HeroSection() {
   return (
-    <section id="home" className="relative min-h-[600px] md:h-screen overflow-hidden">
-      <div className="hero-slider">
-        <div className="hero-slide" style={{backgroundImage: `url(${hero1})`}}></div>
-        <div className="hero-slide" style={{backgroundImage: `url(${hero2})`}}></div>
-        <div className="hero-slide" style={{backgroundImage: `url(${hero3})`}}></div>
-      </div>
-      <div className="absolute inset-0 bg-black/30 z-10" />
-      <div className="absolute inset-0 z-20 flex items-center justify-center text-center px-4">
-        <div className="max-w-4xl">
-          <p className="text-[#ffffff] font-semibold tracking-[0.3em] uppercase mb-4 fadeInUp" style={{ animationDelay: '0.2s' }}>
-            Welcome to Prime Corporate Stay
-          </p>
-          <h1 className="text-4xl md:text-7xl text-white font-serif mb-8 leading-tight fadeInUp" style={{ animationDelay: '0.5s' }}>
-            Experience Luxury <br /> & Homely Comfort
-          </h1>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 fadeInUp" style={{ animationDelay: '0.8s' }}>
-            {/* <a href="/rooms" className="w-full md:w-auto bg-[#c5a075] text-white px-10 py-4 font-bold hover:bg-[#b08e68] transition-all tracking-wider">
-              VIEW OUR ROOMS
-            </a> */}
-            <a href="/contact" className="w-full md:w-auto border-2 border-white text-white px-10 py-4 font-bold hover:bg-white hover:text-black transition-all tracking-wider">
-              BOOK YOUR STAY
-            </a>
+    <section id="home" className="bg-white pt-8 pb-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 className="text-4xl md:text-8xl font-bold tracking-tight text-gray-900 mb-6 uppercase leading-tight">
+          Welcome to <br /> Prime Corporate Stay
+        </h1>
+
+        <div className="relative h-[400px] md:h-[600px] w-full overflow-hidden mb-8">
+          <div className="hero-slider">
+            <div className="hero-slide" style={{backgroundImage: `url(${hero1})`}}></div>
+            <div className="hero-slide" style={{backgroundImage: `url(${hero2})`}}></div>
+            <div className="hero-slide" style={{backgroundImage: `url(${hero3})`}}></div>
           </div>
+          <div className="absolute inset-0 bg-black/10 z-10" />
+        </div>
+
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed">
+            Welcome to our Cozy Haven, where Comfort Meets Style and Exceptional Service Elevates Every Experience
+          </p>
+          <a href="/contact" className="inline-block bg-black text-white px-12 py-5 text-lg font-bold rounded-full hover:bg-gray-800 transition-all tracking-wider uppercase">
+            Book now
+          </a>
         </div>
       </div>
       <style jsx>{`
