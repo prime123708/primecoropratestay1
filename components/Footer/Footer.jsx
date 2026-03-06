@@ -185,7 +185,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-300 pt-6 flex flex-col md:flex-row justify-center items-center text-sm text-gray-600">
-          <p>Prime Corporate Stay © 2026. All Rights Reserved</p>
+          <p>Prime Corporate Stay © 2026. All Rights Reserved | Designed & Developed By AdAvenue Brand Labs</p>
          
         </div>
       </div>
