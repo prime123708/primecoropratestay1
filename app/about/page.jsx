@@ -46,7 +46,7 @@ export default function AboutPage() {
         alt="About Us"
       >
         <div className="text-center text-white fadeInUp">
-          <h1 className="text-5xl md:text-6xl font-serif mb-4">
+          <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">
             About Prime Corporate Stay
           </h1>
           <p className="text-xl">Where Hospitality Meets Heart</p>
@@ -58,7 +58,7 @@ export default function AboutPage() {
           <div
             ref={addToRefs}
             data-section="story"
-          className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transform transition-all duration-700 ${(isVisible?.story ?? true) ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
+            className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transform transition-all duration-700 ${(isVisible?.story ?? true) ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
           >
             <div>
               <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
@@ -103,7 +103,7 @@ export default function AboutPage() {
             <div
               ref={addToRefs}
               data-section="stat1"
-            className={`text-center transform transition-all duration-700 ${(isVisible?.stat1 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
+              className={`text-center transform transition-all duration-700 ${(isVisible?.stat1 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
             >
               <Award className="w-12 h-12 text-[#c5a075] mx-auto mb-4" />
               <div className="text-4xl font-bold text-[#c5a075] mb-2">15+</div>
@@ -113,7 +113,7 @@ export default function AboutPage() {
             <div
               ref={addToRefs}
               data-section="stat2"
-            className={`text-center transform transition-all duration-700 delay-100 ${(isVisible?.stat2 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
+              className={`text-center transform transition-all duration-700 delay-100 ${(isVisible?.stat2 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
             >
               <Users className="w-12 h-12 text-[#c5a075] mx-auto mb-4" />
               <div className="text-4xl font-bold text-[#c5a075] mb-2">10K+</div>
@@ -123,7 +123,7 @@ export default function AboutPage() {
             <div
               ref={addToRefs}
               data-section="stat3"
-            className={`text-center transform transition-all duration-700 delay-200 ${(isVisible?.stat3 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
+              className={`text-center transform transition-all duration-700 delay-200 ${(isVisible?.stat3 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
             >
               <Star className="w-12 h-12 text-[#c5a075] mx-auto mb-4" />
               <div className="text-4xl font-bold text-[#c5a075] mb-2">
@@ -135,7 +135,7 @@ export default function AboutPage() {
             <div
               ref={addToRefs}
               data-section="stat4"
-            className={`text-center transform transition-all duration-700 delay-300 ${(isVisible?.stat4 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
+              className={`text-center transform transition-all duration-700 delay-300 ${(isVisible?.stat4 ?? true) ? "scale-100 opacity-100" : "scale-90 opacity-0"}`}
             >
               <Clock className="w-12 h-12 text-[#c5a075] mx-auto mb-4" />
               <div className="text-4xl font-bold text-[#c5a075] mb-2">24/7</div>
@@ -150,7 +150,7 @@ export default function AboutPage() {
           <div
             ref={addToRefs}
             data-section="mission"
-          className={`text-center max-w-3xl mx-auto transform transition-all duration-700 ${(isVisible?.mission ?? true) ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
+            className={`text-center max-w-3xl mx-auto transform transition-all duration-700 ${(isVisible?.mission ?? true) ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
           >
             <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
               OUR MISSION

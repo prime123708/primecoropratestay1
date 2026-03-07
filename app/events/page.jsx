@@ -27,18 +27,18 @@ export default function EventsPage() {
       image: banquetImg
     },
     {
-        title: "Team Building",
-        description: "Engage your team with our creative team-building activities and spacious indoor and outdoor venues.",
-        icon: <Clock className="w-8 h-8" />,
-        image: restaurantImg
-      }
+      title: "Team Building",
+      description: "Engage your team with our creative team-building activities and spacious indoor and outdoor venues.",
+      icon: <Clock className="w-8 h-8" />,
+      image: restaurantImg
+    }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <ParallaxBanner src={bannerImg} alt="Events and Banquets">
         <div className="text-center text-white fadeInUp">
-          <h1 className="text-5xl md:text-6xl font-serif mb-4">
+          <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">
             Events & Banquets
           </h1>
           <p className="text-xl">Host your special moments with us</p>
@@ -61,11 +61,11 @@ export default function EventsPage() {
                 className={`flex flex-col md:flex-row gap-8 items-center ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}
               >
                 <div className="w-full md:w-1/2">
-                    <img
-                        src={event.image}
-                        alt={event.title}
-                        className="rounded-lg shadow-xl w-full h-64 object-cover"
-                    />
+                  <img
+                    src={event.image}
+                    alt={event.title}
+                    className="rounded-lg shadow-xl w-full h-64 object-cover"
+                  />
                 </div>
                 <div className="w-full md:w-1/2 text-center md:text-left">
                   <div className="text-[#c5a075] mb-4 flex justify-center md:justify-start">

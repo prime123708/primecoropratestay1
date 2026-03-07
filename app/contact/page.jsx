@@ -13,7 +13,7 @@ export default function ContactPage() {
         alt="Contact"
       >
         <div className="text-center text-white fadeIn">
-          <h1 className="text-5xl md:text-6xl font-serif mb-4">Contact Us</h1>
+          <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">Contact Us</h1>
           <p className="text-xl">We're Here to Help</p>
         </div>
       </ParallaxBanner>
@@ -43,10 +43,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
                     <a
-                    href="mailto:primecorporatestay@gmail.com"
+                      href="mailto:primecorporatestay@gmail.com"
                       className="text-gray-600 hover:text-[#c5a075] transition-colors"
                     >
-                    primecorporatestay@gmail.com
+                      primecorporatestay@gmail.com
                     </a>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ export default function ContactPage() {
                     <p className="text-gray-600">
                       CM 85, Sector 144, Noida,
                       <br />
-                       Uttar Pradesh, 201310
+                      Uttar Pradesh, 201310
                     </p>
                   </div>
                 </div>

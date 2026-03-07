@@ -92,14 +92,14 @@ export default function RoomsPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      
+
 
       <ParallaxBanner
         src={bannerImg}
         alt="Rooms"
       >
         <div className="text-center text-white fadeIn">
-          <h1 className="text-5xl md:text-6xl font-serif mb-4">Our Rooms</h1>
+          <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">Our Rooms</h1>
           <p className="text-xl">Comfort & Luxury Combined</p>
         </div>
       </ParallaxBanner>

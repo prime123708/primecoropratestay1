@@ -116,7 +116,7 @@ export default function MenuPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      
+
 
       <section className="relative h-[400px] mt-16 md:mt-20">
         <img
@@ -126,7 +126,7 @@ export default function MenuPage() {
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <div className="text-center text-white fadeIn">
-            <h1 className="text-5xl md:text-6xl font-serif mb-4">Our Menu</h1>
+            <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">Our Menu</h1>
             <p className="text-xl">Taste the Traditions</p>
           </div>
         </div>
@@ -139,11 +139,10 @@ export default function MenuPage() {
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
-                className={`px-6 py-3 rounded-full font-semibold transition-all transform hover:scale-105 ${
-                  activeCategory === category
-                    ? "bg-[#c5a075] text-white"
-                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                }`}
+                className={`px-6 py-3 rounded-full font-semibold transition-all transform hover:scale-105 ${activeCategory === category
+                  ? "bg-[#c5a075] text-white"
+                  : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                  }`}
               >
                 {menuCategories[category].name}
               </button>

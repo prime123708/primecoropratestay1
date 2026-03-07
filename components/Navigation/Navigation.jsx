@@ -53,7 +53,7 @@ export function Navigation() {
             <div className="hidden lg:block md:px-1">
               <a href="/contact">
                 <button className="bg-[#c5a075] text-white px-4 md:px-8 py-2 md:py-3 text-sm md:text-base font-semibold hover:bg-[#b08e68] transition-all transform hover:scale-105">
-                  RESERVATION →
+                  BOOK A STAY  →
                 </button>
               </a>
             </div>

@@ -8,7 +8,7 @@ export default function PrivacyPage() {
     <div className="min-h-screen bg-white">
       <ParallaxBanner src={bannerImg} alt="Privacy Policy">
         <div className="text-center text-white fadeInUp">
-          <h1 className="text-5xl md:text-6xl font-serif mb-4">
+          <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">
             Privacy Policy
           </h1>
           <p className="text-xl">Your privacy is our priority</p>

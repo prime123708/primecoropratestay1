@@ -68,7 +68,7 @@ export default function ServicesPage() {
         alt="Services"
       >
         <div className="text-center text-white fadeIn">
-          <h1 className="text-5xl md:text-6xl font-serif mb-4">Our Services</h1>
+          <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">Our Services</h1>
           <p className="text-xl">Excellence in Every Detail</p>
         </div>
       </ParallaxBanner>

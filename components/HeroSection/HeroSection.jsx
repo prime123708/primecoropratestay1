@@ -6,7 +6,7 @@ export function HeroSection() {
   return (
     <section id="home" className="bg-white pt-4 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-10">
-        <h1 className="text-3xl md:text-5xl font-serif font-black tracking-tight mb-6 uppercase leading-tight text-[#424244] three-d-text">
+        <h1 className="text-3xl md:text-4xl font-serif font-black tracking-tight mb-6 uppercase leading-tight text-[#424244] three-d-text">
           Welcome to <br /> Prime Corporate Stay
         </h1>
       </div>

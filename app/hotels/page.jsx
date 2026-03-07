@@ -8,7 +8,7 @@ import banquetImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
 export default function HotelsPage() {
   return (
     <div className="min-h-screen bg-white">
-      
+
 
       <section className="relative h-[400px] mt-16 md:mt-20">
         <img
@@ -18,7 +18,7 @@ export default function HotelsPage() {
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <div className="text-center text-white fadeIn">
-            <h1 className="text-5xl md:text-6xl font-serif mb-4">
+            <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">
               Prime Corporate Stay
             </h1>
             <p className="text-xl">Your Premium Stay in Greater Noida</p>

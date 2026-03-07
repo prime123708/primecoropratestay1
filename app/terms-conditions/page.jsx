@@ -8,7 +8,7 @@ export default function TermsPage() {
     <div className="min-h-screen bg-white">
       <ParallaxBanner src={bannerImg} alt="Terms and Conditions">
         <div className="text-center text-white fadeInUp">
-          <h1 className="text-5xl md:text-6xl font-serif mb-4">
+          <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">
             Terms & Conditions
           </h1>
           <p className="text-xl">Our rules for a comfortable stay</p>

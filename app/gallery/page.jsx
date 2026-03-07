@@ -52,14 +52,14 @@ export default function GalleryPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      
+
 
       <ParallaxBanner
         src={bannerImg}
         alt="Gallery"
       >
         <div className="text-center text-white fadeIn">
-          <h1 className="text-5xl md:text-6xl font-serif mb-4">Gallery</h1>
+          <h1 className="text-5xl md:text-6xl font-serif mb-4 text-white">Gallery</h1>
           <p className="text-xl">Explore Our Beautiful Spaces</p>
         </div>
       </ParallaxBanner>
@@ -70,7 +70,7 @@ export default function GalleryPage() {
             {galleryImages.map((image, index) => (
               <div
                 key={index}
-                className="relative group overflow-hidden rounded-lg cursor-pointer transform transition-all duration-300 hover:scale-105 fadeIn"
+                className="relative overflow-hidden rounded-lg cursor-pointer transform transition-all duration-300 fadeIn"
                 style={{ animationDelay: `${index * 50}ms` }}
                 onClick={() => setSelectedImage(image)}
               >
@@ -79,11 +79,6 @@ export default function GalleryPage() {
                   alt={image.title}
                   className="w-full h-64 object-cover"
                 />
-                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <p className="text-white text-lg font-semibold">
-                    {image.title}
-                  </p>
-                </div>
               </div>
             ))}
           </div>
