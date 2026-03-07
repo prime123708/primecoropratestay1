@@ -3,9 +3,9 @@
 import { useState, useEffect, useRef } from "react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
 import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
-import r1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM (2).jpeg";
-import r2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM (2).jpeg";
-import r3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM (1).jpeg";
+import r1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
+import r2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
+import r3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 import r4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
 
 export default function RoomsPage() {

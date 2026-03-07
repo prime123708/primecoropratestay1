@@ -1,6 +1,6 @@
 import { ServiceCard } from "./ServiceCard";
-import banquetImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM (2).jpeg";
-import restaurantImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM (2).jpeg";
+import banquetImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
+import restaurantImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM.jpeg";
 import supportImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 
 export function ServicesSection({ isVisible, addToRefs }) {

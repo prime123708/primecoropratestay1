@@ -1,7 +1,7 @@
 "use client";
 
 import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
-import exteriorImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM (2).jpeg";
+import exteriorImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM.jpeg";
 import restaurantImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 import banquetImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
 

@@ -2,10 +2,10 @@
 
 import { MapPin } from "lucide-react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
-import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM (3).jpeg";
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
 import s1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
-import s2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM (1).jpeg";
-import s3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM (1).jpeg";
+import s2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
+import s3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 
 const attractions = [
   {

@@ -2,7 +2,7 @@
 
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
-import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM (2).jpeg";
+import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 
 export default function ContactPage() {
   return (
