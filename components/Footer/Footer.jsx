@@ -12,41 +12,52 @@ export function Footer() {
                 <span className="block text-[#F7931E] -mt-2">corporate stay</span>
               </div>
             </div>
-
             <div className="flex space-x-3 mb-6">
               <a
                 href="#"
-                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all"
+                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all text-gray-800"
               >
                 <svg
                   className="w-5 h-5"
-                  fill="currentColor"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
               </a>
               <a
                 href="#"
-                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all"
+                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all text-gray-800"
               >
                 <svg
                   className="w-5 h-5"
-                  fill="currentColor"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   viewBox="0 0 24 24"
                 >
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                   <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                 </svg>
               </a>
               <a
                 href="#"
-                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all"
+                className="w-12 h-12 bg-white border border-gray-300 rounded flex items-center justify-center hover:bg-[#c5a075] hover:text-white transition-all text-gray-800"
               >
                 <svg
                   className="w-5 h-5"
-                  fill="currentColor"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   viewBox="0 0 24 24"
                 >
                   <circle cx="12" cy="12" r="10" />
@@ -124,7 +135,7 @@ export function Footer() {
               >
                 Terms & Conditions
               </a>
-              
+
               <a
                 href="/contact"
                 className="text-gray-700 hover:text-[#c5a075] transition-colors"
@@ -172,23 +183,23 @@ export function Footer() {
                   <p className="text-gray-700">
                     CM 85, Sector 144, Noida,
                     <br />
-                     Uttar Pradesh, 201310
+                    Uttar Pradesh, 201310
                   </p>
                 </div>
               </div>
 
-              
+
             </div>
 
-         
+
           </div>
         </div>
 
         <div className="border-t border-gray-300 pt-6 flex flex-col md:flex-row justify-center items-center text-sm text-gray-600">
           <p>Prime Corporate Stay © 2026. All Rights Reserved | Designed & Developed By AdAvenue Brand Labs</p>
-         
+
         </div>
       </div>
-    </footer>
+    </footer >
   );
 }
