@@ -1,46 +1,16 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import mallImg from "@/images/DLF MALL OF INDIA.jpg";
-import birdImg from "@/images/Okhla-Bird-Sanctuary-.jpg";
-import wonderImg from "@/images/WORLD OF WONDER.jpg";
-import akshardhamImg from "@/images/swaminarayan-akshardham-complex-delhi.jpg";
-import buddhImg from "@/images/BUDDHA INTERNATION CIRCUIT.webp";
+import g1 from "@/images/WhatsApp Image 2026-03-07 at 3.07.50 PM.jpeg";
+import g2 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM (1).jpeg";
+import g3 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM (2).jpeg";
+import g4 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM.jpeg";
+import g5 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (1).jpeg";
+import g6 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (2).jpeg";
 
-const attractions = [
-    {
-        title: "DLF Mall of India",
-        description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
-        distance: "15 mins drive",
-        image: mallImg
-    },
-    {
-        title: "Okhla Bird Sanctuary",
-        description: "A peaceful retreat for nature lovers and bird watchers, home to over 300 species of birds.",
-        distance: "20 mins drive",
-        image: birdImg
-    },
-    {
-        title: "Worlds of Wonder",
-        description: "A popular amusement and water park perfect for a fun-filled day with family and friends.",
-        distance: "15 mins drive",
-        image: wonderImg
-    },
-    {
-        title: "Akshardham Temple",
-        description: "A stunning architectural marvel and spiritual center, showcasing India's rich culture and heritage.",
-        distance: "30 mins drive",
-        image: akshardhamImg
-    },
-    {
-        title: "Buddh International Circuit",
-        description: "India's premier motor racing circuit, hosting international racing events and track days.",
-        distance: "25 mins drive",
-        image: buddhImg
-    }
-];
+const galleryImages = [g1, g2, g3, g4, g5, g6];
 
-export function AttractionSlider() {
+export function GallerySlider() {
     const scrollRef = useRef(null);
     const [isPaused, setIsPaused] = useState(false);
     const [scrollProgress, setScrollProgress] = useState(0);
@@ -60,7 +30,8 @@ export function AttractionSlider() {
         if (!isPaused && scrollRef.current) {
             interval = setInterval(() => {
                 const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
-                const slideWidth = scrollRef.current.children[0].clientWidth + 24; // Slide width + gap loosely
+                if (!scrollRef.current.children[0]) return;
+                const slideWidth = scrollRef.current.children[0].clientWidth + 24; // Slide width + gap
 
                 if (scrollLeft + clientWidth >= scrollWidth - 20) {
                     scrollRef.current.scrollTo({ left: 0, behavior: "smooth" });
@@ -72,7 +43,7 @@ export function AttractionSlider() {
         return () => clearInterval(interval);
     }, [isPaused]);
 
-    // Drag to scroll functionality (Slide holding feature)
+    // Drag to scroll functionality
     const isDragging = useRef(false);
     const startX = useRef(0);
     const startScrollLeft = useRef(0);
@@ -98,7 +69,7 @@ export function AttractionSlider() {
         if (!isDragging.current) return;
         e.preventDefault();
         const x = e.pageX - scrollRef.current.offsetLeft;
-        const walk = (x - startX.current) * 2; // Scroll-fast multiplier
+        const walk = (x - startX.current) * 2;
         scrollRef.current.scrollLeft = startScrollLeft.current - walk;
     };
 
@@ -106,7 +77,7 @@ export function AttractionSlider() {
         <div className="py-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-8 mb-8">
                 <div className="flex justify-center text-center">
-                    <h2 className="text-4xl font-serif">Nearby <br className="md:hidden" /> Attractions</h2>
+                    <h2 className="text-4xl font-serif">Gallery</h2>
                 </div>
             </div>
 
@@ -123,37 +94,18 @@ export function AttractionSlider() {
                     className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide px-4 sm:px-8 gap-6 md:gap-10 pb-4 cursor-grab active:cursor-grabbing"
                     style={{ scrollbarWidth: 'none', msOverflowStyle: 'none', WebkitOverflowScrolling: 'touch' }}
                 >
-                    {attractions.map((attr, index) => (
+                    {galleryImages.map((img, index) => (
                         <div
                             key={index}
-                            className="flex-none w-[85vw] md:w-[70vw] lg:w-[50vw] snap-center shrink-0 flex flex-col"
+                            className="flex-none w-[85vw] md:w-[70vw] lg:w-[50vw] snap-center shrink-0"
                         >
-                            <div className="w-full h-[300px] md:h-[450px] mb-8 overflow-hidden shadow-sm">
+                            <div className="w-full h-[300px] md:h-[500px] overflow-hidden shadow-md">
                                 <img
-                                    src={attr.image}
-                                    alt={attr.title}
+                                    src={img}
+                                    alt={`Gallery Image ${index + 1}`}
                                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105 pointer-events-none"
                                     draggable="false"
                                 />
-                            </div>
-                            <div className="flex flex-col flex-grow px-2 md:px-0">
-                                <h3 className="text-2xl font-serif text-gray-900 mb-4 tracking-widest uppercase">
-                                    {attr.title}
-                                </h3>
-                                <p className="text-gray-600 mb-8 leading-relaxed font-light text-lg">
-                                    {attr.description}
-                                    <span className="block mt-2 text-[#c5a075] font-semibold text-sm tracking-wider uppercase">
-                                        {attr.distance}
-                                    </span>
-                                </p>
-                                <div className="flex items-center justify-between mt-auto">
-                                    <a href="/attractions" className="text-[#a47c45] font-semibold tracking-widest text-sm uppercase hover:text-gray-900 transition-colors flex items-center group">
-                                        <span className="border-b-2 border-transparent group-hover:border-[#a47c45] pb-1 transition-all">MORE &gt;</span>
-                                    </a>
-                                    <a href="/contact" className="bg-[#b38b59] text-white px-10 py-4 text-sm font-bold tracking-widest uppercase hover:bg-[#8e6d42] transition-colors">
-                                        Book Now
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     ))}
@@ -165,8 +117,8 @@ export function AttractionSlider() {
                         <div
                             className="absolute top-0 left-0 h-[2px] bg-[#c5a075] transition-all duration-150"
                             style={{
-                                width: `${(100 / attractions.length)}%`,
-                                transform: `translateX(${scrollProgress * (attractions.length - 1) * 100}%)`
+                                width: `${(100 / galleryImages.length)}%`,
+                                transform: `translateX(${scrollProgress * (galleryImages.length - 1) * 100}%)`
                             }}
                         ></div>
                     </div>

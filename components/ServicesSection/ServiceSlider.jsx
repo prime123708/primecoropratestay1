@@ -171,12 +171,12 @@ export function ServiceSlider() {
                                     <p className="text-gray-600 mb-8 leading-relaxed font-light text-lg">
                                         {service.description}
                                     </p>
-                                    <div className="flex items-center justify-between mt-auto mb-6">
+                                    <div className="flex items-center justify-between mt-auto mb-6 px-1">
                                         <a href="/services" className="text-[#a47c45] font-semibold tracking-widest text-sm uppercase hover:text-gray-900 transition-colors flex items-center group">
-                                            <span className="border-b-2 border-transparent group-hover:border-[#a47c45] pb-1 transition-all">DISCOVER &gt;</span>
+                                            <span className="border-b-2 border-transparent group-hover:border-[#a47c45] pb-1 transition-all">MORE &gt;</span>
                                         </a>
                                         <a href="/contact" className="bg-[#b38b59] text-white px-10 py-4 text-sm font-bold tracking-widest uppercase hover:bg-[#8e6d42] transition-colors">
-                                            Enquire Now
+                                            Book Now
                                         </a>
                                     </div>
                                 </div>

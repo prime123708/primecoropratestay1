@@ -2,10 +2,11 @@ import hero1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
 import hero2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
 import hero3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
 import { AttractionSlider } from "./AttractionSlider";
+import { GallerySlider } from "./GallerySlider";
 
 export function HeroSection() {
   return (
-    <section id="home" className="bg-white pt-4 pb-12">
+    <section id="home" className="bg-white pt-4 pb-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-10">
         <h1 className="text-3xl md:text-4xl font-serif font-black tracking-tight mb-6 uppercase leading-tight text-[#424244] three-d-text">
           Welcome to <br /> Prime Corporate Stay
@@ -30,6 +31,7 @@ export function HeroSection() {
             Book now
           </a>
         </div>
+        <GallerySlider />
         <AttractionSlider />
       </div>
       <style jsx>{`
