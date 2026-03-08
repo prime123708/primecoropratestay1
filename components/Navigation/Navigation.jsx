@@ -47,6 +47,7 @@ export function Navigation() {
               <a href="/rooms" className="text-gray-700 hover:text-[#c5a075] transition-colors">ROOMS</a>
               <a href="/services" className="text-gray-700 hover:text-[#c5a075] transition-colors">SERVICES</a>
               <a href="/gallery" className="text-gray-700 hover:text-[#c5a075] transition-colors">GALLERY</a>
+              <a href="/attractions" className="text-gray-700 hover:text-[#c5a075] transition-colors">ATTRACTIONS</a>
               <a href="/contact" className="text-gray-700 hover:text-[#c5a075] transition-colors">CONTACT US</a>
             </div>
 

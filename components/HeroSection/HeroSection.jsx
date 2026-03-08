@@ -1,6 +1,7 @@
 import hero1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
 import hero2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
 import hero3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
+import { AttractionSlider } from "./AttractionSlider";
 
 export function HeroSection() {
   return (
@@ -29,6 +30,7 @@ export function HeroSection() {
             Book now
           </a>
         </div>
+        <AttractionSlider />
       </div>
       <style jsx>{`
         .three-d-text {
