@@ -100,7 +100,7 @@ export function AttractionSlider() {
     };
 
     return (
-        <div className="py-20 bg-[#faf9f7]">
+        <div className="py-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-8 mb-12">
                 <div className="flex justify-center text-center">
                     <h2 className="text-4xl font-serif">Nearby <br className="md:hidden" /> Attractions</h2>
