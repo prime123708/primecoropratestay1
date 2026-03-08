@@ -1,28 +1,30 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import s1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
-import s2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
-import s3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
+import mallImg from "@/images/DLF MALL OF INDIA.jpg";
+import birdImg from "@/images/Okhla-Bird-Sanctuary-.jpg";
+import wonderImg from "@/images/WORLD OF WONDER.jpg";
+import akshardhamImg from "@/images/swaminarayan-akshardham-complex-delhi.jpg";
+import buddhImg from "@/images/BUDDHA INTERNATION CIRCUIT.webp";
 
 const attractions = [
     {
         title: "DLF Mall of India",
         description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
         distance: "15 mins drive",
-        image: s1
+        image: mallImg
     },
     {
         title: "Okhla Bird Sanctuary",
         description: "A peaceful retreat for nature lovers and bird watchers, home to over 300 species of birds.",
         distance: "20 mins drive",
-        image: s2
+        image: birdImg
     },
     {
         title: "Worlds of Wonder",
         description: "A popular amusement and water park perfect for a fun-filled day with family and friends.",
         distance: "15 mins drive",
-        image: s3
+        image: wonderImg
     },
     {
         title: "Akshardham Temple",
