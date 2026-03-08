@@ -43,7 +43,17 @@ const attractions = [
 export function AttractionSlider() {
     const scrollRef = useRef(null);
     const [isPaused, setIsPaused] = useState(false);
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [scrollProgress, setScrollProgress] = useState(0);
+
+    const handleScroll = (e) => {
+        const { scrollLeft, scrollWidth, clientWidth } = e.target;
+        if (scrollWidth <= clientWidth) {
+            setScrollProgress(0);
+            return;
+        }
+        const ratio = scrollLeft / (scrollWidth - clientWidth);
+        setScrollProgress(Math.max(0, Math.min(ratio, 1)));
+    };
 
     useEffect(() => {
         let interval;
@@ -61,15 +71,6 @@ export function AttractionSlider() {
         }
         return () => clearInterval(interval);
     }, [isPaused]);
-
-    const handleScroll = () => {
-        if (scrollRef.current) {
-            const { scrollLeft } = scrollRef.current;
-            const slideWidth = scrollRef.current.children[0].clientWidth + 24;
-            const index = Math.round(scrollLeft / slideWidth);
-            setActiveIndex(Math.min(index, attractions.length - 1));
-        }
-    };
 
     // Drag to scroll functionality (Slide holding feature)
     const isDragging = useRef(false);
@@ -159,23 +160,23 @@ export function AttractionSlider() {
                 </div>
 
                 {/* Progress indicator */}
-                {/* <div className="max-w-7xl mx-auto px-4 sm:px-8 mt-16 mb-4">
+                <div className="max-w-7xl mx-auto px-4 sm:px-8 mt-16 mb-4">
                     <div className="w-full md:w-1/2 mx-auto h-[1px] bg-gray-300 relative flex overflow-hidden">
                         <div
-                            className="absolute top-0 left-0 h-[2px] bg-[#c5a075] transition-all duration-300"
+                            className="absolute top-0 left-0 h-[2px] bg-[#c5a075] transition-all duration-150"
                             style={{
                                 width: `${(100 / attractions.length)}%`,
-                                transform: `translateX(${activeIndex * 100}%)`
+                                transform: `translateX(${scrollProgress * (attractions.length - 1) * 100}%)`
                             }}
                         ></div>
                     </div>
-                </div> */}
+                </div>
             </div>
             <style jsx>{`
-        .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-        }
-      `}</style>
+                .scrollbar-hide::-webkit-scrollbar {
+                  display: none;
+                }
+            `}</style>
         </div>
     );
 }
