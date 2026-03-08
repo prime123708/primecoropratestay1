@@ -1,14 +1,13 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import g1 from "@/images/WhatsApp Image 2026-03-07 at 3.07.50 PM.jpeg";
 import g2 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM (1).jpeg";
 import g3 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM (2).jpeg";
 import g4 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM.jpeg";
 import g5 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (1).jpeg";
 import g6 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (2).jpeg";
 
-const galleryImages = [g1, g2, g3, g4, g5, g6];
+const galleryImages = [g2, g3, g4, g5, g6];
 
 export function GallerySlider() {
     const scrollRef = useRef(null);
