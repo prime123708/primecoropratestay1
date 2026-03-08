@@ -2,6 +2,7 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { AboutSection } from "@/components/AboutSection/AboutSection";
 import { ServicesSection } from "@/components/ServicesSection/ServicesSection";
+import { ServiceSlider } from "@/components/ServicesSection/ServiceSlider";
 import { TestimonialsSection } from "@/components/TestimonialsSection/TestimonialsSection";
 
 export default function HomePage() {
@@ -11,6 +12,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       <HeroSection />
       <AboutSection isVisible={isVisible} addToRefs={addToRefs} />
+      <ServiceSlider />
       <ServicesSection isVisible={isVisible} addToRefs={addToRefs} />
       <TestimonialsSection />
     </div>

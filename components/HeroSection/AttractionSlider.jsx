@@ -35,7 +35,7 @@ const attractions = [
 export function AttractionSlider() {
     return (
         <div className="mt-20 w-[100vw] relative left-[50%] right-[50%] -mx-[50vw] overflow-hidden">
-            <h3 className="text-2xl font-serif font-bold text-gray-800 mb-8 uppercase tracking-wider text-center">Nearby Attractions</h3>
+            <h3 className="text-3xl font-serif font-bold text-gray-800 mb-8 uppercase tracking-wider text-center">Nearby Attractions</h3>
             <div className="flex gap-4 w-max animate-scroll hover:animation-pause">
                 {[...attractions, ...attractions, ...attractions].map((attr, index) => (
                     <div
