@@ -30,13 +30,13 @@ const attractions = [
         title: "Akshardham Temple",
         description: "A stunning architectural marvel and spiritual center, showcasing India's rich culture and heritage.",
         distance: "30 mins drive",
-        image: s1
+        image: akshardhamImg
     },
     {
         title: "Buddh International Circuit",
         description: "India's premier motor racing circuit, hosting international racing events and track days.",
         distance: "25 mins drive",
-        image: s2
+        image: buddhImg
     }
 ];
 
