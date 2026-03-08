@@ -9,12 +9,12 @@ import {
     Dumbbell,
     Briefcase,
 } from "lucide-react";
-import s1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
-import s2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
+import s1 from "@/images/Restraunent.jpg";
+import s2 from "@/images/Banquet Hall.jpg";
 import s3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
-import s4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
-import s5 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
-import s6 from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM.jpeg";
+import s4 from "@/images/Parking.jpg";
+import s5 from "@/images/Fitness Center.jpg";
+import s6 from "@/images/Business Center.jpg";
 
 const services = [
     {
