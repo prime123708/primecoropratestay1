@@ -14,19 +14,19 @@ const attractions = [
     {
         title: "Advant Navis Business Park",
         description: " This is a major hub for IT/ITES companies..",
-        distance: "15 mins walk",
+        distance: "7 mins drive",
         image: advimg
     },
     {
         title: "Embassy Oxygen Business Park",
-        description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
-        distance: "20 mins drive",
+        description: "Embassy Oxygen Business Park is a premium Grade-A commercial office campus located in Noida’s fast-growing business district.",
+        distance: "12 mins drive",
         image: embassyimg
     },
     {
         title: "Exl -NSL TechZone",
-        description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
-        distance: "15 mins drive",
+        description: "EXL‑NSL TechZone is a modern IT and business campus located in Noida’s TechZone corridor. It houses operations of EXL Service and other corporate offices, offering advanced workspace infrastructure, connectivity, and employee-friendly facilities.",
+        distance: "6 mins drive",
         image: exlimg
     },
     {
