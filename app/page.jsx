@@ -14,10 +14,12 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       <HeroSection />
       <AboutSection isVisible={isVisible} addToRefs={addToRefs} />
-      <AttractionSlider />
+      
       <OffersSection />
+      
       {/* <ServiceSlider /> */}
       <ServicesSection isVisible={isVisible} addToRefs={addToRefs} />
+      <AttractionSlider />
       <TestimonialsSection />
     </div>
   );

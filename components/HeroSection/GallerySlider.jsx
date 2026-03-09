@@ -2,12 +2,12 @@
 
 import { useState, useEffect, useRef } from "react";
 import g2 from "@/images/g1.jpeg";
-import g3 from "@/images/g2.jpeg";
+// import g3 from "@/images/g2.jpeg";
 // import g4 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM.jpeg";
 // import g5 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (1).jpeg";
 // import g6 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (2).jpeg";
 
-const galleryImages = [g2, g3];
+const galleryImages = [g2];
 
 export function GallerySlider() {
     const scrollRef = useRef(null);
@@ -90,13 +90,13 @@ export function GallerySlider() {
                     onMouseMove={handleMouseMove}
                     onTouchStart={() => setIsPaused(true)}
                     onTouchEnd={() => setIsPaused(false)}
-                    className="flex md:grid md:grid-cols-2 md:justify-center overflow-x-auto md:overflow-hidden snap-x snap-mandatory scrollbar-hide px-4 sm:px-8 gap-6 md:gap-8 pb-4 cursor-grab active:cursor-grabbing w-full mx-auto"
+                    className={`flex ${galleryImages.length > 1 ? 'md:grid md:grid-cols-2' : 'md:justify-center'} overflow-x-auto md:overflow-hidden snap-x snap-mandatory scrollbar-hide px-4 sm:px-8 gap-6 md:gap-8 pb-4 cursor-grab active:cursor-grabbing w-full mx-auto`}
                     style={{ scrollbarWidth: 'none', msOverflowStyle: 'none', WebkitOverflowScrolling: 'touch' }}
                 >
                     {galleryImages.map((img, index) => (
                         <div
                             key={index}
-                            className="flex-none w-[85vw] md:w-full snap-center shrink-0"
+                            className={`flex-none w-[85vw] ${galleryImages.length > 1 ? 'md:w-full' : 'md:w-[70vw] lg:w-[50vw]'} snap-center shrink-0`}
                         >
                             <div className="w-full h-[300px] md:h-auto overflow-hidden shadow-md">
                                 <img

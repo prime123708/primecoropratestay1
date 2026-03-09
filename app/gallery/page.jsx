@@ -8,7 +8,7 @@ import g2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.09 PM.jpeg";
 import g3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
 import g4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 import g5 from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
-import g6 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
+// import g6 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
 import g7 from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM.jpeg";
 import g8 from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM (2).jpeg";
 import g9 from "@/images/WhatsApp Image 2026-03-07 at 3.07.50 PM.jpeg";
@@ -29,7 +29,7 @@ export default function GalleryPage() {
     { url: g3, title: "Gallery Image 3" },
     { url: g4, title: "Gallery Image 4" },
     { url: g5, title: "Gallery Image 5" },
-    { url: g6, title: "Gallery Image 6" },
+    // { url: g6, title: "Gallery Image 6" },
     { url: g7, title: "Gallery Image 7" },
     { url: g8, title: "Gallery Image 8" },
     { url: g9, title: "Gallery Image 9" },
