@@ -7,7 +7,7 @@ import wonderImg from "@/images/WORLD OF WONDER.jpg";
 import akshardhamImg from "@/images/swaminarayan-akshardham-complex-delhi.jpg";
 import buddhImg from "@/images/BUDDHA INTERNATION CIRCUIT.webp";
 import advimg from "@/images/Advant Navis Business Park.jpg";
-import embassyimg from "@/images/Embassy Oxygen Business Park.PNG";
+import embassyimg from "@/images/Embassy Oxygen Business Park.png";
 import exlimg from "@/images/Exl -NSL TechZone.jpg";
 
 const attractions = [
