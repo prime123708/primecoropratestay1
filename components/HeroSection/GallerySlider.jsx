@@ -1,13 +1,13 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import g2 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM (1).jpeg";
-import g3 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM (2).jpeg";
-import g4 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM.jpeg";
-import g5 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (1).jpeg";
-import g6 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (2).jpeg";
+import g2 from "@/images/g1.jpeg";
+import g3 from "@/images/g2.jpeg";
+// import g4 from "@/images/WhatsApp Image 2026-03-07 at 3.07.51 PM.jpeg";
+// import g5 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (1).jpeg";
+// import g6 from "@/images/WhatsApp Image 2026-03-07 at 3.07.52 PM (2).jpeg";
 
-const galleryImages = [g2, g3, g4, g5, g6];
+const galleryImages = [g2, g3];
 
 export function GallerySlider() {
     const scrollRef = useRef(null);
@@ -26,7 +26,7 @@ export function GallerySlider() {
 
     useEffect(() => {
         let interval;
-        if (!isPaused && scrollRef.current) {
+        if (!isPaused && scrollRef.current && window.innerWidth < 768) {
             interval = setInterval(() => {
                 const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
                 if (!scrollRef.current.children[0]) return;
@@ -90,19 +90,19 @@ export function GallerySlider() {
                     onMouseMove={handleMouseMove}
                     onTouchStart={() => setIsPaused(true)}
                     onTouchEnd={() => setIsPaused(false)}
-                    className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide px-4 sm:px-8 gap-6 md:gap-10 pb-4 cursor-grab active:cursor-grabbing"
+                    className="flex md:grid md:grid-cols-2 md:justify-center overflow-x-auto md:overflow-hidden snap-x snap-mandatory scrollbar-hide px-4 sm:px-8 gap-6 md:gap-8 pb-4 cursor-grab active:cursor-grabbing w-full mx-auto"
                     style={{ scrollbarWidth: 'none', msOverflowStyle: 'none', WebkitOverflowScrolling: 'touch' }}
                 >
                     {galleryImages.map((img, index) => (
                         <div
                             key={index}
-                            className="flex-none w-[85vw] md:w-[70vw] lg:w-[50vw] snap-center shrink-0"
+                            className="flex-none w-[85vw] md:w-full snap-center shrink-0"
                         >
-                            <div className="w-full h-[300px] md:h-[500px] overflow-hidden shadow-md">
+                            <div className="w-full h-[300px] md:h-auto overflow-hidden shadow-md">
                                 <img
                                     src={img}
                                     alt={`Gallery Image ${index + 1}`}
-                                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105 pointer-events-none"
+                                    className="w-full h-full md:h-auto object-contain transition-transform duration-700 hover:scale-105 pointer-events-none"
                                     draggable="false"
                                 />
                             </div>
@@ -110,8 +110,8 @@ export function GallerySlider() {
                     ))}
                 </div>
 
-                {/* Progress indicator */}
-                <div className="max-w-7xl mx-auto px-4 sm:px-8 mt-8 mb-4">
+                {/* Progress indicator - only show on mobile */}
+                <div className="max-w-7xl mx-auto px-4 sm:px-8 mt-8 mb-4 md:hidden">
                     <div className="w-full md:w-1/2 mx-auto h-[1px] bg-gray-300 relative flex overflow-hidden">
                         <div
                             className="absolute top-0 left-0 h-[2px] bg-[#c5a075] transition-all duration-150"

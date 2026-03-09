@@ -5,6 +5,7 @@ import { WhatsAppButton } from '@/components/WhatsAppButton/WhatsAppButton';
 import { CallingButton } from '@/components/CallingButton/CallingButton';
 import { PageAnimations } from '@/components/PageAnimations/PageAnimations';
 
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {

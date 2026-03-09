@@ -38,10 +38,10 @@ export function ServicesSection({ isVisible, addToRefs }) {
     <section id="services" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          {/* <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
+          <p className="text-[#c5a075] font-semibold mb-2 tracking-wider">
             SERVICES
-          </p> */}
-          {/* <h2 className="text-4xl font-serif">Our Best Ministrations</h2> */}
+          </p>
+          <h2 className="text-4xl font-serif">Our Best Ministrations</h2>
         </div>
 
         {services.map((service, index) => (

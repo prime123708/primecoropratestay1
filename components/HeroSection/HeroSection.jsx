@@ -32,7 +32,7 @@ export function HeroSection() {
           </a>
         </div>
         <GallerySlider />
-        <AttractionSlider />
+        {/* <AttractionSlider /> */}
       </div>
       <style jsx>{`
         .three-d-text {

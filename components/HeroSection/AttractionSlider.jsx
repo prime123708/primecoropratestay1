@@ -6,8 +6,29 @@ import birdImg from "@/images/Okhla-Bird-Sanctuary-.jpg";
 import wonderImg from "@/images/WORLD OF WONDER.jpg";
 import akshardhamImg from "@/images/swaminarayan-akshardham-complex-delhi.jpg";
 import buddhImg from "@/images/BUDDHA INTERNATION CIRCUIT.webp";
+import advimg from "@/images/Advant Navis Business Park.jpg";
+import embassyimg from "@/images/Embassy Oxygen Business Park.PNG";
+import exlimg from "@/images/Exl -NSL TechZone.jpg";
 
 const attractions = [
+    {
+        title: "Advant Navis Business Park",
+        description: " This is a major hub for IT/ITES companies..",
+        distance: "15 mins walk",
+        image: advimg
+    },
+    {
+        title: "Embassy Oxygen Business Park",
+        description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
+        distance: "20 mins drive",
+        image: embassyimg
+    },
+    {
+        title: "Exl -NSL TechZone",
+        description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
+        distance: "15 mins drive",
+        image: exlimg
+    },
     {
         title: "DLF Mall of India",
         description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
