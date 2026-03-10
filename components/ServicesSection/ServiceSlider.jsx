@@ -2,31 +2,31 @@
 
 import { useState, useEffect, useRef } from "react";
 import {
-    Utensils,
-    PartyPopper,
+    Coffee,
+    Users,
     Wifi,
     Car,
-    Dumbbell,
+    Sparkles,
     Briefcase,
 } from "lucide-react";
-import s1 from "@/images/Restraunent.jpg";
-import s2 from "@/images/Banquet Hall.jpg";
+import s1 from "@/images/i1.jpeg";
+import s2 from "@/images/i2.jpeg";
 import s3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 import s4 from "@/images/Parking.jpg";
-import s5 from "@/images/Fitness Center.jpg";
+import s5 from "@/images/i3.jpeg";
 import s6 from "@/images/Business Center.jpg";
 
 const services = [
     {
-        icon: Utensils,
-        title: "Restaurant",
-        description: "Experience fine dining with a variety of local and international cuisines prepared by our expert chefs.",
+        icon: Coffee,
+        title: "In-Room Dining",
+        description: "Enjoy delicious, freshly prepared meals delivered directly to your room for your convenience.",
         image: s1,
     },
     {
-        icon: PartyPopper,
-        title: "Banquet Hall",
-        description: "A perfect venue for your special occasions, weddings, and corporate events with state-of-the-art facilities.",
+        icon: Users,
+        title: "Meeting Rooms",
+        description: "Modern, fully equipped meeting spaces ideal for your corporate discussions and interviews.",
         image: s2,
     },
     {
@@ -42,9 +42,9 @@ const services = [
         image: s4,
     },
     {
-        icon: Dumbbell,
-        title: "Fitness Center",
-        description: "Maintain your workout routine in our fully equipped gym featuring modern exercise equipment.",
+        icon: Sparkles,
+        title: "Daily Housekeeping",
+        description: "Professional daily housekeeping services to ensure your stay is clean, comfortable, and hassle-free.",
         image: s5,
     },
     {

@@ -1,36 +1,36 @@
 "use client";
 
 import {
-  Utensils,
-  PartyPopper,
+  Coffee,
+  Users,
   Wifi,
   Car,
-  Dumbbell,
+  Sparkles,
   Briefcase,
 } from "lucide-react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
 import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
-import s1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.08 PM.jpeg";
-import s2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
+import s1 from "@/images/i1.jpeg";
+import s2 from "@/images/i2.jpeg";
 import s3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 import s4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.12 PM.jpeg";
-import s5 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
+import s5 from "@/images/i3.jpeg";
 import s6 from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM.jpeg";
 
 export default function ServicesPage() {
   const services = [
     {
-      icon: Utensils,
-      title: "Restaurant",
+      icon: Coffee,
+      title: "In-Room Dining",
       description:
-        "Multi-cuisine restaurant serving authentic North Indian, South Indian, and Pan-Asian delicacies.",
+        "Enjoy delicious, freshly prepared meals delivered directly to your room for your convenience.",
       image: s1,
     },
     {
-      icon: PartyPopper,
-      title: "Banquet Hall",
+      icon: Users,
+      title: "Meeting Rooms",
       description:
-        "Elegant event spaces perfect for weddings, birthdays, corporate events, and celebrations.",
+        "Modern, fully equipped meeting spaces ideal for your corporate discussions and interviews.",
       image: s2,
     },
     {
@@ -47,9 +47,9 @@ export default function ServicesPage() {
       image: s4,
     },
     {
-      icon: Dumbbell,
-      title: "Fitness Center",
-      description: "Modern gym equipped with state-of-the-art equipment.",
+      icon: Sparkles,
+      title: "Daily Housekeeping",
+      description: "Professional daily housekeeping services to ensure your stay is clean, comfortable, and hassle-free.",
       image: s5,
     },
     {
