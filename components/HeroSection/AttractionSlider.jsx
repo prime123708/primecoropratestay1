@@ -14,13 +14,13 @@ const attractions = [
     {
         title: "Advant Navis Business Park",
         description: " This is a major hub for IT/ITES companies..",
-        distance: "7 mins drive",
+        distance: "10 mins drive",
         image: advimg
     },
     {
         title: "Embassy Oxygen Business Park",
         description: "Embassy Oxygen Business Park is a premium Grade-A commercial office campus located in Noida’s fast-growing business district.",
-        distance: "12 mins drive",
+        distance: "4 mins drive",
         image: embassyimg
     },
     {
@@ -32,31 +32,31 @@ const attractions = [
     {
         title: "DLF Mall of India",
         description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
-        distance: "15 mins drive",
+        distance: "24 mins drive",
         image: mallImg
     },
     {
         title: "Okhla Bird Sanctuary",
         description: "A peaceful retreat for nature lovers and bird watchers, home to over 300 species of birds.",
-        distance: "20 mins drive",
+        distance: "30 mins drive",
         image: birdImg
     },
     {
         title: "Worlds of Wonder",
         description: "A popular amusement and water park perfect for a fun-filled day with family and friends.",
-        distance: "15 mins drive",
+        distance: "27 mins drive",
         image: wonderImg
     },
     {
         title: "Akshardham Temple",
         description: "A stunning architectural marvel and spiritual center, showcasing India's rich culture and heritage.",
-        distance: "30 mins drive",
+        distance: "35 mins drive",
         image: akshardhamImg
     },
     {
         title: "Buddh International Circuit",
         description: "India's premier motor racing circuit, hosting international racing events and track days.",
-        distance: "25 mins drive",
+        distance: "35 mins drive",
         image: buddhImg
     }
 ];
