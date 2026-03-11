@@ -126,12 +126,12 @@ export default function AttractionsPage() {
             <div className="p-8">
               <ul className="space-y-6">
                 {[
-                  { name: "Sector 144 Metro Station" },
-                  { name: "Noida–Greater Noida Expressway" },
-                  { name: "Advant Navis Business Park" },
-                  { name: "Gulshan One29 Mall" },
-                  { name: "Felix Hospital" },
-                  { name: "Amity University Noida" }
+                  { name: "Sector 144 Metro Station", distance: "1.2 km" },
+                  { name: "Noida–Greater Noida Expressway", distance: "1 km" },
+                  { name: "Advant Navis Business Park", distance: "4.7 km" },
+                  { name: "Gulshan One29 Mall", distance: "5.5 km" },
+                  { name: "Felix Hospital", distance: "8 km" },
+                  { name: "Amity University Noida", distance: "16 km" }
                 ].map((landmark, idx) => (
                   <li key={idx} className="flex items-center justify-between border-b border-gray-100 pb-4 last:border-0 last:pb-0">
                     <div className="flex items-center">
@@ -142,6 +142,7 @@ export default function AttractionsPage() {
                       </div>
                       <span className="text-lg font-medium text-gray-800">{landmark.name}</span>
                     </div>
+                    <span className="text-[#c5a075] font-bold">{landmark.distance}</span>
                   </li>
                 ))}
               </ul>
