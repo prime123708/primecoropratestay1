@@ -14,49 +14,49 @@ const attractions = [
     {
         title: "Advant Navis Business Park",
         description: " This is a major hub for IT/ITES companies..",
-        distance: "10 mins drive",
+        distance: "4.7 km (10 min drive)",
         image: advimg
     },
     {
         title: "Embassy Oxygen Business Park",
         description: "Embassy Oxygen Business Park is a premium Grade-A commercial office campus located in Noida’s fast-growing business district.",
-        distance: "4 mins drive",
+        distance: "1.5 km (4 min drive)",
         image: embassyimg
     },
     {
         title: "Exl -NSL TechZone",
         description: "EXL‑NSL TechZone is a modern IT and business campus located in Noida’s TechZone corridor. It houses operations of EXL Service and other corporate offices, offering advanced workspace infrastructure, connectivity, and employee-friendly facilities.",
-        distance: "6 mins drive",
+        distance: "1.7 km (6 min drive)",
         image: exlimg
     },
     {
         title: "DLF Mall of India",
         description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
-        distance: "24 mins drive",
+        distance: "17 km (24 min drive)",
         image: mallImg
     },
     {
         title: "Okhla Bird Sanctuary",
         description: "A peaceful retreat for nature lovers and bird watchers, home to over 300 species of birds.",
-        distance: "30 mins drive",
+        distance: "18 km (30 min drive)",
         image: birdImg
     },
     {
         title: "Worlds of Wonder",
         description: "A popular amusement and water park perfect for a fun-filled day with family and friends.",
-        distance: "27 mins drive",
+        distance: "18 km (27 min drive)",
         image: wonderImg
     },
     {
         title: "Akshardham Temple",
         description: "A stunning architectural marvel and spiritual center, showcasing India's rich culture and heritage.",
-        distance: "35 mins drive",
+        distance: "23 km (35 min drive)",
         image: akshardhamImg
     },
     {
         title: "Buddh International Circuit",
         description: "India's premier motor racing circuit, hosting international racing events and track days.",
-        distance: "35 mins drive",
+        distance: "27 km (35 min drive)",
         image: buddhImg
     }
 ];

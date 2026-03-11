@@ -8,36 +8,57 @@ import birdImg from "@/images/Okhla-Bird-Sanctuary-.jpg";
 import wonderImg from "@/images/WORLD OF WONDER.jpg";
 import akshardhamImg from "@/images/swaminarayan-akshardham-complex-delhi.jpg";
 import buddhImg from "@/images/BUDDHA INTERNATION CIRCUIT.webp";
+import advimg from "@/images/Advant Navis Business Park.jpg";
+import embassyimg from "@/images/Embassy Oxygen Business Park.png";
+import exlimg from "@/images/Exl -NSL TechZone.jpg";
 
 const attractions = [
   {
+    title: "Advant Navis Business Park",
+    description: " This is a major hub for IT/ITES companies..",
+    distance: "4.7 km (10 min drive)",
+    image: advimg
+  },
+  {
+    title: "Embassy Oxygen Business Park",
+    description: "Embassy Oxygen Business Park is a premium Grade-A commercial office campus located in Noida’s fast-growing business district.",
+    distance: "1.5 km (4 min drive)",
+    image: embassyimg
+  },
+  {
+    title: "Exl -NSL TechZone",
+    description: "EXL‑NSL TechZone is a modern IT and business campus located in Noida’s TechZone corridor. It houses operations of EXL Service and other corporate offices, offering advanced workspace infrastructure, connectivity, and employee-friendly facilities.",
+    distance: "1.7 km (6 min drive)",
+    image: exlimg
+  },
+  {
     title: "DLF Mall of India",
     description: "One of the largest malls in India, offering a wide range of international brands, dining, and entertainment options.",
-    distance: "15 mins drive",
+    distance: "17 km (24 min drive)",
     image: mallImg
   },
   {
     title: "Okhla Bird Sanctuary",
     description: "A peaceful retreat for nature lovers and bird watchers, home to over 300 species of birds.",
-    distance: "20 mins drive",
+    distance: "18 km (30 min drive)",
     image: birdImg
   },
   {
     title: "Worlds of Wonder",
     description: "A popular amusement and water park perfect for a fun-filled day with family and friends.",
-    distance: "15 mins drive",
+    distance: "18 km (27 min drive)",
     image: wonderImg
   },
   {
     title: "Akshardham Temple",
     description: "A stunning architectural marvel and spiritual center, showcasing India's rich culture and heritage.",
-    distance: "30 mins drive",
+    distance: "23 km (35 min drive)",
     image: akshardhamImg
   },
   {
     title: "Buddh International Circuit",
     description: "India's premier motor racing circuit, hosting international racing events and track days.",
-    distance: "25 mins drive",
+    distance: "27 km (35 min drive)",
     image: buddhImg
   }
 ];
@@ -105,11 +126,12 @@ export default function AttractionsPage() {
             <div className="p-8">
               <ul className="space-y-6">
                 {[
-                  { name: "Hindon Airport", distance: "25.2 km" },
-                  { name: "Indira Gandhi International Airport", distance: "33.7 km" },
-                  { name: "Agra Airport", distance: "157.9 km" },
-                  { name: "Bareilly Airport", distance: "198.5 km" },
-                  { name: "Jolly Grant Airport", distance: "202.8 km" }
+                  { name: "Sector 144 Metro Station" },
+                  { name: "Noida–Greater Noida Expressway" },
+                  { name: "Advant Navis Business Park" },
+                  { name: "Gulshan One29 Mall" },
+                  { name: "Felix Hospital" },
+                  { name: "Amity University Noida" }
                 ].map((landmark, idx) => (
                   <li key={idx} className="flex items-center justify-between border-b border-gray-100 pb-4 last:border-0 last:pb-0">
                     <div className="flex items-center">
@@ -120,7 +142,6 @@ export default function AttractionsPage() {
                       </div>
                       <span className="text-lg font-medium text-gray-800">{landmark.name}</span>
                     </div>
-                    <span className="text-[#c5a075] font-bold">{landmark.distance}</span>
                   </li>
                 ))}
               </ul>
