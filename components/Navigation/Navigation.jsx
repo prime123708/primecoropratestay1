@@ -1,6 +1,20 @@
+import { useLocation } from "react-router";
 import logo from "@/images/logo.png";
 
 export function Navigation() {
+  const location = useLocation();
+  const pathname = location.pathname;
+
+  const getDesktopClass = (path) => {
+    const isActive = path === '/' ? pathname === '/' : pathname?.startsWith(path);
+    return `pb-1 transition-colors ${isActive ? 'text-[#c5a075] font-semibold border-b-2 border-[#c5a075]' : 'text-gray-700 hover:text-[#c5a075]'}`;
+  };
+
+  const getMobileClass = (path) => {
+    const isActive = path === '/' ? pathname === '/' : pathname?.startsWith(path);
+    return `transition-colors ${isActive ? 'text-[#c5a075] font-semibold' : 'text-gray-700 hover:text-[#c5a075]'}`;
+  };
+
   return (
     <>
       <style dangerouslySetInnerHTML={{
@@ -26,9 +40,9 @@ export function Navigation() {
           }
         `
       }} />
-      
+
       <input type="checkbox" id="menu-toggle" />
-      
+
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20 md:h-28">
@@ -42,13 +56,13 @@ export function Navigation() {
             </a>
 
             <div className="hidden lg:flex space-x-6 xl:space-x-8">
-              <a href="/" className="text-[#c5a075] font-semibold border-b-2 border-[#c5a075] pb-1">HOME</a>
-              <a href="/about" className="text-gray-700 hover:text-[#c5a075] transition-colors">ABOUT US</a>
-              <a href="/rooms" className="text-gray-700 hover:text-[#c5a075] transition-colors">ROOMS</a>
-              <a href="/services" className="text-gray-700 hover:text-[#c5a075] transition-colors">SERVICES</a>
-              <a href="/gallery" className="text-gray-700 hover:text-[#c5a075] transition-colors">GALLERY</a>
-              <a href="/attractions" className="text-gray-700 hover:text-[#c5a075] transition-colors">ATTRACTIONS</a>
-              <a href="/contact" className="text-gray-700 hover:text-[#c5a075] transition-colors">CONTACT US</a>
+              <a href="/" className={getDesktopClass('/')}>HOME</a>
+              <a href="/about" className={getDesktopClass('/about')}>ABOUT US</a>
+              <a href="/rooms" className={getDesktopClass('/rooms')}>ROOMS</a>
+              <a href="/services" className={getDesktopClass('/services')}>SERVICES</a>
+              <a href="/gallery" className={getDesktopClass('/gallery')}>GALLERY</a>
+              <a href="/attractions" className={getDesktopClass('/attractions')}>ATTRACTIONS</a>
+              <a href="/contact" className={getDesktopClass('/contact')}>CONTACT US</a>
             </div>
 
             <div className="hidden lg:block md:px-1">
@@ -77,15 +91,15 @@ export function Navigation() {
           </div>
         </div>
 
-        <div id="mobile-menu" className="lg:hidden bg-white border-t border-gray-200 shadow-lg" style={{display: 'none'}}>
+        <div id="mobile-menu" className="lg:hidden bg-white border-t border-gray-200 shadow-lg" style={{ display: 'none' }}>
           <div className="px-4 py-3 flex flex-col space-y-3">
-            <a href="/" className="text-gray-700 hover:text-[#c5a075] transition-colors">HOME</a>
-            <a href="/about" className="text-gray-700 hover:text-[#c5a075] transition-colors">ABOUT US</a>
-            <a href="/rooms" className="text-gray-700 hover:text-[#c5a075] transition-colors">ROOMS</a>
-            <a href="/services" className="text-gray-700 hover:text-[#c5a075] transition-colors">SERVICES</a>
-            <a href="/attractions" className="text-gray-700 hover:text-[#c5a075] transition-colors">ATTRACTIONS</a>
-            <a href="/gallery" className="text-gray-700 hover:text-[#c5a075] transition-colors">GALLERY</a>
-            <a href="/contact" className="text-gray-700 hover:text-[#c5a075] transition-colors">CONTACT US</a>
+            <a href="/" className={getMobileClass('/')}>HOME</a>
+            <a href="/about" className={getMobileClass('/about')}>ABOUT US</a>
+            <a href="/rooms" className={getMobileClass('/rooms')}>ROOMS</a>
+            <a href="/services" className={getMobileClass('/services')}>SERVICES</a>
+            <a href="/attractions" className={getMobileClass('/attractions')}>ATTRACTIONS</a>
+            <a href="/gallery" className={getMobileClass('/gallery')}>GALLERY</a>
+            <a href="/contact" className={getMobileClass('/contact')}>CONTACT US</a>
             <a href="/contact">
               <button className="w-full bg-[#c5a075] text-white px-4 py-2 text-sm font-semibold rounded-md hover:bg-[#b08e68] transition-all">
                 RESERVATION →

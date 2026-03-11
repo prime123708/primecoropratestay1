@@ -3,6 +3,7 @@ import hero2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
 import hero3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
 import { AttractionSlider } from "./AttractionSlider";
 import { GallerySlider } from "./GallerySlider";
+import { PartnerBanner } from "./PartnerBanner";
 
 export function HeroSection() {
   return (
@@ -30,6 +31,8 @@ export function HeroSection() {
           <a href="/contact" className="inline-block bg-black text-white px-12 py-5 text-lg font-bold rounded-full hover:bg-gray-800 transition-all tracking-wider uppercase bg-gradient-to-r from-[#222325] to-[#222325]">
             Book now
           </a>
+          
+          <PartnerBanner />
         </div>
         <GallerySlider />
         {/* <AttractionSlider /> */}

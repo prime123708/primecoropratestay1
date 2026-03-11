@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import mallImg from "@/images/DLF MALL OF INDIA.jpg";
 import birdImg from "@/images/Okhla-Bird-Sanctuary-.jpg";
 import wonderImg from "@/images/WORLD OF WONDER.jpg";
@@ -131,7 +132,31 @@ export function AttractionSlider() {
                 </div>
             </div>
 
-            <div className="w-full relative">
+            <div className="w-full relative group">
+                <button
+                    onClick={() => {
+                        if (scrollRef.current && scrollRef.current.children[0]) {
+                            const slideWidth = scrollRef.current.children[0].clientWidth + 24;
+                            scrollRef.current.scrollBy({ left: -slideWidth, behavior: "smooth" });
+                        }
+                    }}
+                    className="absolute left-4 md:left-6 top-[30%] md:top-[40%] -translate-y-1/2 z-50 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-xl hover:bg-gray-100 transform hover:scale-110 active:scale-95 transition-all duration-200 opacity-100"
+                    aria-label="Previous slide"
+                >
+                    <ChevronLeft className="w-6 h-6 text-gray-800" />
+                </button>
+                <button
+                    onClick={() => {
+                        if (scrollRef.current && scrollRef.current.children[0]) {
+                            const slideWidth = scrollRef.current.children[0].clientWidth + 24;
+                            scrollRef.current.scrollBy({ left: slideWidth, behavior: "smooth" });
+                        }
+                    }}
+                    className="absolute right-4 md:right-6 top-[30%] md:top-[40%] -translate-y-1/2 z-50 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-xl hover:bg-gray-100 transform hover:scale-110 active:scale-95 transition-all duration-200 opacity-100"
+                    aria-label="Next slide"
+                >
+                    <ChevronRight className="w-6 h-6 text-gray-800" />
+                </button>
                 <div
                     ref={scrollRef}
                     onScroll={handleScroll}
