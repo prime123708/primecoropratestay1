@@ -17,7 +17,7 @@ export function PartnerBanner() {
   return (
     <div className="mt-8 mb-4">
       <p className="text-gray-600 text-sm md:text-base font-medium mb-4 tracking-wide uppercase">
-        You can also Book From
+        Also Available On
       </p>
       
       <div className="relative w-full max-w-3xl mx-auto overflow-hidden bg-white/50 backdrop-blur-sm rounded-xl py-4 flex items-center">
@@ -34,7 +34,7 @@ export function PartnerBanner() {
               <img 
                 src={partner.src} 
                 alt={`${partner.name} logo`} 
-                className="h-16 md:h-24 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100" 
+                className="h-16 md:h-24 w-auto object-contain transition-all duration-300" 
               />
             </div>
           ))}
