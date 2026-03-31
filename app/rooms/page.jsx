@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { ParallaxBanner } from "@/components/ParallaxBanner/ParallaxBanner";
 import bannerImg from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
 import r1 from "@/images/WhatsApp Image 2026-02-23 at 3.39.13 PM.jpeg";
-import r2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
+import r2 from "@/images/WhatsApp Image 2026-02-23 at 3.39.14 PM.jpeg";
 import r3 from "@/images/WhatsApp Image 2026-02-23 at 3.39.11 PM.jpeg";
 import r4 from "@/images/WhatsApp Image 2026-02-23 at 3.39.10 PM.jpeg";
 
@@ -14,15 +14,15 @@ export default function RoomsPage() {
 
   const rooms = [
     {
-      title: "Luxury Rooms",
+      title: "Standard Room",
       image: r1,
       description:
         "Experience ultimate comfort in our premium luxury rooms with modern amenities and elegant interiors.",
       features: ["King Size Bed", "Air Conditioning", "Free WiFi", "Smart TV"],
-      price: "₹5,000",
+      price: "1799/-",
     },
     {
-      title: "Superior Room",
+      title: "Luxury Room",
       image: r2,
       description:
         "Elegant spaces designed for your perfect stay with all modern conveniences.",
@@ -32,10 +32,10 @@ export default function RoomsPage() {
         "Mini Bar",
         "Premium Toiletries",
       ],
-      price: "₹4,000",
+      price: "1999/-",
     },
     {
-      title: "Corporate Twin Room",
+      title: "Superior Room",
       image: r3,
       description:
         "Ideal for business travelers and colleagues with twin bed configuration.",
@@ -45,10 +45,10 @@ export default function RoomsPage() {
         "Coffee Maker",
         "High-Speed Internet",
       ],
-      price: "₹4,500",
+      price: "2099/-",
     },
     {
-      title: "Residences Room",
+      title: "Corporate Twin Room",
       image: r4,
       description:
         "Your home away from home with extended stay comfort and spacious living.",
@@ -58,7 +58,7 @@ export default function RoomsPage() {
         "Dining Space",
         "Separate Bedroom",
       ],
-      price: "₹6,500",
+      price: "2299/-",
     },
   ];
 

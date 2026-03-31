@@ -5,10 +5,10 @@ export function ReservationForm() {
         <label className="block text-sm font-semibold mb-2">Our Rooms</label>
         <select className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-[#c5a075]">
           <option>Select your Rooms</option>
-          <option>Luxury Rooms</option>
+          <option>Standard Room</option>
+          <option>Luxury Room</option>
           <option>Superior Room</option>
           <option>Corporate Twin Room</option>
-          <option>Residences Room</option>
         </select>
       </div>
 
